@@ -177,6 +177,7 @@ Yuan2.0-M32中采用Yuan2.0-2B模型作为Expert，推理时激活2个Expert，�
 
 
 **4.4  推理服务**
+
 详细部署方案可以参考[vllm](https://github.com/IEIT-Yuan/Yuan2.0-M32/edit/main/vllm/README_Yuan_vllm.md)
 
 
