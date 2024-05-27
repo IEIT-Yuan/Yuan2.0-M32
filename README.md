@@ -59,8 +59,6 @@
 ##  1. Introduction
 
 
-
-
 浪潮信息 **“源2.0 M32”大模型（简称，Yuan2.0-M32）** 采用稀疏混合专家架构（MoE），以Yuan2.0-2B模型作为基底模型，通过创新的门控网络（YuanGate）实现32个专家间（Expers*32）的协同工作与任务调度，在显著降低模型推理算力需求的情况下，带来了更强的模型精度表现与推理性能；**★ 任务测评：** **Humaneval、GSM8K等业界领先**，  **★ 推理性能：** **2668 tokens/s，同规模模型性能最好**，**★ 推理成本：** **6.6 GFLOPs / token，相似精度模型成本最低**。**Yuan2.0-M32大模型** 基本信息如下：
 
 
@@ -75,9 +73,14 @@
 
 同时，我们发布了Yuan2.0-M32模型的<a href="https://arxiv.org/ftp/arxiv/papers/2311/2311.15786.pdf" target="_blank">**技术报告**</a>，可以通过论文查看更详细的技术细节与测评结果。
 
-  ![Image text]([https://github.com/IEIT-Yuan/Yuan-2.0/blob/main/images/%E6%BA%90%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.png](https://github.com/IEIT-Yuan/Yuan2.0-M32/blob/main/docs/Yuan2.0-M32-Architecture.jpg)
+![Image text](https://github.com/IEIT-Yuan/Yuan2.0-M32/blob/main/docs/Yuan2.0-M32-Architecture.jpg)
 
-Fig 1: Yuan 2.0-MoE 架构图
+<h4 align="center">
+    <p>
+        <b>Fig.1: Yuan 2.0-M32 架构图</b>
+    <p>
+</h4>
+
 
 
 ##  2. Model Downloads
