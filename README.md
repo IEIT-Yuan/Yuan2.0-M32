@@ -75,7 +75,7 @@
 
 同时，我们发布了Yuan2.0-M32模型的<a href="https://arxiv.org/ftp/arxiv/papers/2311/2311.15786.pdf" target="_blank">**技术报告**</a>，可以通过论文查看更详细的技术细节与测评结果。
 
-
+  ![Image text]([https://github.com/IEIT-Yuan/Yuan-2.0/blob/main/images/%E6%BA%90%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.png](https://github.com/IEIT-Yuan/Yuan2.0-M32/blob/main/docs/Yuan2.0-M32-Architecture.jpg)
 
 Fig 1: Yuan 2.0-MoE 架构图
 
