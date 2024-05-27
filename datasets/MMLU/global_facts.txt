@@ -1,0 +1,100 @@
+As of 2016, about what percentage of adults aged 18 years or older were overweight?<n>A.10%<n>B.20%<n>C.40%<n>D.80%[SEP]C
+What was GDP per capita in the United States in 1850 when adjusting for inflation and PPP in 2011 prices?<n>A.About $300<n>B.About $3k<n>C.About $8k<n>D.About $15k[SEP]B
+As of 2019, about what percentage of people from the United States says homosexuality should be accepted by society?<n>A.52%<n>B.62%<n>C.72%<n>D.82%[SEP]C
+Which of the following countries generated the most total energy from solar sources in 2019?<n>A.China<n>B.United States<n>C.Germany<n>D.Japan[SEP]A
+Controlling for inflation and PPP-adjustment, about how much did GDP per capita increase from 1950 to 2016 in Japan?<n>A.by 5 fold<n>B.by 10 fold<n>C.by 15 fold<n>D.by 20 fold[SEP]C
+What is the biggest cause of death in children under five years old (as of 2017)?<n>A.Lower respiratory infections<n>B.Preterm birth complications<n>C.Diarrheal diseases<n>D.Malaria[SEP]A
+As of 2019, about what percentage of the global population does not have access to safe drinking water?<n>A.10%<n>B.20%<n>C.30%<n>D.40%[SEP]C
+About what percentage of survey respondents from India report having paid a bribe in the last year to access public services (such as education; judiciary; medical and health; police; registry and permit services; utilities; tax revenue and customs; and land service) as of 2017?<n>A.29%<n>B.49%<n>C.69%<n>D.89%[SEP]C
+As of 2017, what fraction of the population in Brazil used the internet in the past three months?<n>A.18%<n>B.38%<n>C.58%<n>D.78%[SEP]C
+As of 2017, what fraction of the population in India used the internet in the past three months?<n>A.11%<n>B.26%<n>C.41%<n>D.56%[SEP]B
+As of 2018, about what percentage of Indians say that having an increasing number of people of many different races, ethnic groups and nationalities in their country makes it a better place to live (as opposed to worse or no difference)?<n>A.23%<n>B.38%<n>C.53%<n>D.68%[SEP]D
+As of 2019, about what percentage of the world population lives in extreme poverty (less than $1.90 a day)?<n>A.5%<n>B.10%<n>C.15%<n>D.25%[SEP]B
+As of 2020, about what percentage of the world population practices open defecation?<n>A.2%<n>B.4%<n>C.9%<n>D.18%[SEP]C
+Which of the following is not an element of the redistribution-with-growth policy approach?<n>A.minimum wage legislation<n>B.land reform<n>C.progressive taxation<n>D.increased access to education[SEP]A
+About what percentage of the global population was literate in 1950?<n>A.36%<n>B.56%<n>C.76%<n>D.96%[SEP]B
+As of 2016, about what percentage of adults aged 18 years or older were obese?<n>A.6%<n>B.13%<n>C.27%<n>D.46%[SEP]B
+As of 2019, about what percentage of Germans say the relationship between the U.S. and Germany is good?<n>A.34%<n>B.49%<n>C.64%<n>D.79%[SEP]A
+As of 2017, what percentage of Americans live in urban areas?<n>A.62%<n>B.72%<n>C.82%<n>D.92%[SEP]C
+What was GDP per capita in the United States in 1950 when adjusting for inflation and PPP in 2011 prices?<n>A.About $3k<n>B.About $8k<n>C.About $15k<n>D.About $30k[SEP]C
+In 2016, about how many people in the United States were homeless?<n>A.55,000<n>B.550,000<n>C.5,500,000<n>D.55,000,000[SEP]B
+In 1965 how many Americans thought that sending troops to Vietnam was a mistake?<n>A.25%<n>B.45%<n>C.65%<n>D.85%[SEP]A
+As of 2013, share of people in the Ethiopia who think political parties are corrupt is<n>A.24%<n>B.44%<n>C.64%<n>D.84%[SEP]A
+In 1997, the World Bank found that the fraction of the world’s population living in low and lower-middle income countries—that is, countries with per capita incomes of $1230 or less—was approximately<n>A.25%<n>B.40%<n>C.55%<n>D.75%[SEP]D
+As of 2015, agriculture made up about what percentage of total Indian GDP?<n>A.8%<n>B.16%<n>C.32%<n>D.64%[SEP]B
+Which of the following is true as of 2020?<n>A.males are more likely to have depression and are more likely to have an alcohol use disorder than females.<n>B.females are more likely to have depression and are more likely to have an alcohol use disorder than males.<n>C.males are more likely than females to have depression while females are more likely than males to have an alcohol use disorder.<n>D.females are more likely than males to have depression while males are more likely than females to have an alcohol use disorder.[SEP]D
+As of 2019, about what percentage of people from Brazil says homosexuality should be accepted by society?<n>A.37%<n>B.47%<n>C.57%<n>D.67%[SEP]D
+As of 2017, the share of GDP spent on the military by Saudi Arabia is about<n>A.1%<n>B.3%<n>C.6%<n>D.10%[SEP]D
+As of 2019, about what share of electricity came from fossil fuels in the United States?<n>A.23%<n>B.43%<n>C.63%<n>D.83%[SEP]C
+What is the percentage of children aged 13-15 in Egypt who reported being bullied at least once in the past couple of months as of 2015?<n>A.10%<n>B.30%<n>C.50%<n>D.70%[SEP]D
+As of 2018, about what percentage of US adults say criminal risk assessment for people up for parole is an unreasonable application of algorithmic decision making?<n>A.26%<n>B.41%<n>C.56%<n>D.71%[SEP]C
+In 2018, about how many chickens were killed for meat production?<n>A.690 million<n>B.6.9 billion<n>C.69 billion<n>D.690 billion[SEP]C
+In 2016, what percentage of the population of South Sudan had access to electricity?<n>A.9%<n>B.29%<n>C.59%<n>D.79%[SEP]A
+About what percentage of survey respondents from Mexico report having paid a bribe in the last year to access public services (such as education; judiciary; medical and health; police; registry and permit services; utilities; tax revenue and customs; and land service) as of 2017?<n>A.31%<n>B.51%<n>C.71%<n>D.91%[SEP]B
+Controlling for inflation and PPP-adjustment, about how much did GDP per capita increase from 1950 to 2016 in China?<n>A.by 4 fold<n>B.by 8 fold<n>C.by 16 fold<n>D.by 32 fold[SEP]C
+Ross Perot makes polling history by leading the presidential race briefly in June as a third-party candidate with 39%. He winds up with _% of the popular vote.<n>A.1<n>B.7<n>C.13<n>D.19[SEP]D
+As of 2019, about what percentage of Turks say God plays an important role in their life?<n>A.59%<n>B.69%<n>C.79%<n>D.89%[SEP]D
+Which of the following was responsible for the most death in the 20th century?<n>A.Earthquakes<n>B.Volcanic activity<n>C.Wildfires<n>D.Floods[SEP]D
+What is the percentage of children aged 13-15 in the United States who reported being in a physical fight at school, one or more times during the past 12 months as of 2015?<n>A.15%<n>B.35%<n>C.55%<n>D.75%[SEP]B
+Controlling for inflation and PPP-adjustment, about how much did GDP per capita increase from 1950 to 2016 in South Korea?<n>A.by 4 fold<n>B.by 8 fold<n>C.by 16 fold<n>D.by 32 fold[SEP]D
+As of 2019, about what percentage of people from Turkey agree that the state is run for the benefit of all the people?<n>A.36%<n>B.51%<n>C.66%<n>D.81%[SEP]C
+As of 2015, what percentage of the global population over 15 years old was literate?<n>A.81%<n>B.86%<n>C.91%<n>D.96%[SEP]B
+About what percentage of survey respondents from China report having paid a bribe in the last year to access public services (such as education; judiciary; medical and health; police; registry and permit services; utilities; tax revenue and customs; and land service) as of 2017?<n>A.26%<n>B.46%<n>C.66%<n>D.86%[SEP]A
+As of 2019, which of the following had the lowest life expectancy?<n>A.Brazil<n>B.China<n>C.Mexico<n>D.Iran[SEP]C
+As of 2019, unsafe water is responsible for about how many deaths each year?<n>A.1.2 million<n>B.2.4 million<n>C.3.6 million<n>D.4.8 million[SEP]A
+Which of the following causes more deaths globally each year (as of 2017)?<n>A.Diarrheal diseases<n>B.Diabetes<n>C.Dementia<n>D.Road injuries[SEP]C
+About how many people are infected by HIV/AIDS as of 2020?<n>A.3 million<n>B.14 million<n>C.42 million<n>D.124 million[SEP]C
+What is the percentage of children aged 13-15 in the United States who reported being bullied at least once in the past couple of months as of 2015?<n>A.26%<n>B.46%<n>C.66%<n>D.86%[SEP]A
+As of 2019, about what percentage of South Koreans say it is necessary to believe in God in order to be moral and have good values?<n>A.25%<n>B.45%<n>C.65%<n>D.85%[SEP]B
+What is the percentage of children aged 13-15 in Japan who reported being bullied at least once in the past couple of months as of 2015?<n>A.6%<n>B.16%<n>C.36%<n>D.66%[SEP]C
+As of 2018, about what percentage of US adults say computer programs will always reflect human bias?<n>A.43%<n>B.58%<n>C.73%<n>D.88%[SEP]B
+As of 2017, the share of GDP spent on the military by China is about<n>A.0.50%<n>B.2%<n>C.6%<n>D.12%[SEP]B
+The conjecture that inequality first increases with development, then decreases with further development (known as the “inverted U hypothesis”) has, as of 2020, been<n>A.strongly supported by most studies<n>B.supported mainly by cross-section, not time-series studies<n>C.supported mainly by time-series, not cross-section studies<n>D.generally repudiated by empirical studies[SEP]B
+Worldwide, 30 year old men have spent 10 years in school, on average. How many years have women of the same age spent in school, as of 2020?<n>A.12 years<n>B.9 years<n>C.6 years<n>D.3 years[SEP]B
+As of 2017, the share of deaths in Greenland by suicide is about<n>A.0.90%<n>B.1.80%<n>C.3.60%<n>D.7.20%[SEP]D
+As of 2019, about what percentage of people from Russia says homosexuality should be accepted by society?<n>A.14%<n>B.24%<n>C.34%<n>D.44%[SEP]A
+As of 2019, about what percentage of Americans say the relationship between the U.S. and Germany is good?<n>A.60%<n>B.75%<n>C.90%<n>D.45%[SEP]B
+As of 2019, about what percentage of Americans say it is very important to have free media in our country without government/state censorship?<n>A.50%<n>B.60%<n>C.70%<n>D.80%[SEP]D
+In 1987 during Iran Contra what percent of Americans believe Reagan was witholding information?<n>A.2%<n>B.25%<n>C.50%<n>D.75%[SEP]D
+In Sub-Saharan Africa, as of 2020,<n>A.no nation has been able to grow in the past years.<n>B.the Democratic Republic of Congo has become poorer than it initially was in 1980.<n>C.some countries have had relatively significant growth rates.<n>D.some countries have had relatively significant growth rates, but the Democratic Republic of Congo has become poorer than it initially was in 1980.[SEP]C
+World Bank data show that in 1995, the poorest 20% of households accounted for 7.5% of household income in Niger, the next 20% of households accounted for 11.8% of income, the middle 20% accounted for 15.5% of income, the second richest 20% accounted for 21.1% of income, and the top 20% accounted for 44.1% of income. What was the cumulative income share of the bottom 60% of households in Niger?<n>A.15.50%<n>B.34.80%<n>C.48.10%<n>D.65.20%[SEP]B
+How many children between the ages of 5-14 worked globally as of 2012?<n>A.5 million<n>B.30 million<n>C.150 million<n>D.500 million[SEP]C
+Different less developed countries have different levels of secondary school enrollment. Some countries with high secondary-school enrollment are, as of 2020,<n>A.Colombia, Peru, Uruguay, and Costa Rica.<n>B.Bhutan, Niger, Cambodia, and Costa Rica.<n>C.Uruguay, Costa Rica, Timor-Leste, and Pakistan.<n>D.Bhutan, Cambodia, Uruguay and Costa Rica.[SEP]A
+The percentage of children in Vietnam (age 8) who reported physical punishment by teachers in the past week in 2009 was about what?<n>A.10%<n>B.20%<n>C.40%<n>D.80%[SEP]B
+The percentage of children in India (age 8) who reported physical punishment by teachers in the past week in 2009 was about what?<n>A.38%<n>B.58%<n>C.78%<n>D.98%[SEP]C
+Consider the following statements: (1) In every country, people think other individuals in their country are less happy than they actually are. (2) In the United States, women’s happiness has increased both absolutely and relative to men. Which of these statements is True/False?<n>A.True, True<n>B.True, False<n>C.False, True<n>D.False, False[SEP]B
+In 2017, about how many people died from terrorism globally?<n>A.260<n>B.2,600<n>C.26,000<n>D.260,000[SEP]C
+In 1935 roughly how many Americans were in favor of Social Security act?<n>A.90%<n>B.70%<n>C.50%<n>D.30%[SEP]A
+Which of the following countries emitted the most CO2 per capita in 2017?<n>A.Japan<n>B.Canada<n>C.Russia<n>D.Iran[SEP]B
+As of 2019, about what percentage of Indians say it is necessary to believe in God in order to be moral and have good values?<n>A.59%<n>B.69%<n>C.79%<n>D.89%[SEP]C
+What is the percentage of children aged 13-15 in China who reported being in a physical fight at school, one or more times during the past 12 months as of 2015?<n>A.9%<n>B.19%<n>C.39%<n>D.59%[SEP]B
+The percentage of children in Ethiopia (age 8) who reported physical punishment by teachers in the past week in 2009 was about what?<n>A.18%<n>B.38%<n>C.58%<n>D.78%[SEP]B
+As of 2018, about what percentage of people from Tunisia say that having an increasing number of people of many different races, ethnic groups and nationalities in their country makes it a better place to live (as opposed to worse or no difference)?<n>A.24%<n>B.39%<n>C.54%<n>D.69%[SEP]A
+As of 2015, the global fertility rate was about<n>A.1.5 children per woman<n>B.2.5 children per woman<n>C.3.5 children per woman<n>D.4.5 children per woman[SEP]B
+What is the median international income as of 2020?<n>A.$300 <n>B.$1,000 <n>C.$10,000 <n>D.$30,000[SEP]C
+Before being reelected for a third term as president how many Americans approved of running a third time?<n>A.20%<n>B.40%<n>C.60%<n>D.80%[SEP]C
+As of 2019, about what percentage of Italians say it is very important to have free media in our country without government/state censorship?<n>A.41%<n>B.56%<n>C.71%<n>D.86%[SEP]B
+Public spending on education in the world is about what percentage of global GDP as of 2017?<n>A.1%<n>B.2%<n>C.4%<n>D.8%[SEP]C
+As of 2013, which of the following countries had the highest per capita rate of homelessness?<n>A.US<n>B.Chile<n>C.Ireland<n>D.Spain[SEP]A
+Overall, the growth rate of average incomes in less developed countries between 1960 and 1995<n>A.was approximately zero<n>B.exceeded that of high income countries<n>C.exceeded that of Britain during the industrial revolution<n>D.was approximately 3.0% per year[SEP]C
+As of 2015, about what percentage of the world’s land area is forested?<n>A.15%<n>B.30%<n>C.45%<n>D.60%[SEP]B
+The greatest population growth rate has taken place<n>A.in Africa, which is the poorest region of the world with the lowest overall economic growth.<n>B.in Asia, which is the poorest region of the world with a steady overall economic growth.<n>C.in Asia, which is the poorest region of the world with the lowest overall economic growth.<n>D.in Africa, which is the poorest region of the world with a steady overall economic growth.[SEP]C
+The global HIV/AIDS death rate is highest for which of these age groups?<n>A.Under 5<n>B.14-May<n>C.15-49<n>D.over 50[SEP]C
+As of 2015, agriculture made up about what percentage of total US GDP?<n>A.1%<n>B.3%<n>C.9%<n>D.20%[SEP]A
+As of 2017, what percentage of Indians live in urban areas?<n>A.19%<n>B.34%<n>C.49%<n>D.64%[SEP]B
+Consider the following statements: (1) As countries get richer, the population tends to report higher average life satisfaction. (2) Important life events such as marriage or divorce do affect our happiness, but have surprisingly little long-term impact. Which of these statements is True/False, as of 2020?<n>A.True, True<n>B.True, False<n>C.False, True<n>D.False, False[SEP]A
+At its peak, what was the approximate difference in approval of school desegration from the South and the rest of the U.S.?<n>A.80%<n>B.40%<n>C.-40%<n>D.-80%[SEP]B
+As of 2013, share of people in the United States who think political parties are corrupt is<n>A.36%<n>B.56%<n>C.76%<n>D.96%[SEP]C
+Which of the following countries invested the largest fraction of its GDP in renewable energy in 2015?<n>A.China<n>B.Japan<n>C.Chile<n>D.India[SEP]C
+As of 2020, about how much do you need to make annually to be among the richest one percent in the world?<n>A.$150,000 <n>B.$75,000 <n>C.$35,000 <n>D.$15,000[SEP]C
+In 1943 how many Americans believed in the Holocaust?<n>A.30%<n>B.50%<n>C.70%<n>D.90%[SEP]B
+Which of the following countries emitted the most CO2 in 2017?<n>A.Canada<n>B.Russia<n>C.Iran<n>D.Japan[SEP]D
+At the time of independence, there were already hundreds of thousands of university graduates in ____, but hardly any at all in ____.<n>A.India, Congo<n>B.India, South Korea<n>C.Congo, South Korea<n>D.South Korea, India[SEP]A
+As of 2013, share of people in the India who think political parties are corrupt is<n>A.26%<n>B.46%<n>C.66%<n>D.86%[SEP]D
+As of 2019, about what percentage of French people say God plays an important role in their life?<n>A.11%<n>B.31%<n>C.51%<n>D.71%[SEP]B
+As of 2017, the share of GDP spent on the military by the United States is about<n>A.1%<n>B.3%<n>C.6%<n>D.10%[SEP]B
+As of 2017, the share of global deaths by suicide is about<n>A.0.70%<n>B.1.40%<n>C.2.80%<n>D.5.60%[SEP]B
+Many countries that became independent after World War II found that the legacy of colonialism hindered their economic development. The list of hindrances included<n>A.artificial political boundaries that covered diverse ethnic groups with little in common<n>B.inadequate access to higher education and training for nationals under the colonial administration<n>C.control of domestic commerce by foreign minority groups which had been brought in by the colonial power<n>D.all of the above[SEP]D
+Which of the following mental disorders is most prevalent in the world?<n>A.Bipolar disorder<n>B.Schizophrenia<n>C.Alcohol use disorders<n>D.Anxiety disorders[SEP]D
+As of 2017, how many people in the world have some access to electricity?<n>A.60%<n>B.70%<n>C.80%<n>D.90%[SEP]C
+Before Nixon resigned how many believed he should be removed from office?<n>A.79%<n>B.98%<n>C.33%<n>D.57%[SEP]D

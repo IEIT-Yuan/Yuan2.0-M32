@@ -1,0 +1,235 @@
+A 10-N force at an angle 45° above the horizontal has a horizontal component of about<n>A.7 N<n>B.5 N<n>C.10 N<n>D.12 N[SEP]A
+A completely submerged object always displaces its own<n>A.weight of fluid.<n>B.volume of fluid.<n>C.density of fluid.<n>D.All of these.[SEP]B
+When a diver points a flashlight upward toward the surface of the water at an angle 20° from the normal, the beam of light<n>A.totally internally reflects<n>B.passes into the air above<n>C.is absorbed<n>D.None of these[SEP]B
+According to four-dimensional geometry, the angles of a triangle add to 180°<n>A.always.<n>B.sometimes.<n>C.never.<n>D.on planet Earth only.[SEP]B
+A voltage will be induced in a wire loop when the magnetic field within that loop<n>A.changes<n>B.aligns with the electric field<n>C.is at right angles to the electric field<n>D.converts to magnetic energy[SEP]A
+Among these colors, the one that has the most energy per photon is<n>A.red<n>B.yellow-green<n>C.blue<n>D.violet[SEP]D
+According to general relativity,<n>A.mass distorts spacetime.<n>B.gravity affects clocks.<n>C.light can’t escape from a black hole.<n>D.All of these.[SEP]D
+A step-up transformer in an electric circuit can step up<n>A.voltage<n>B.energy<n>C.Both of these<n>D.Neither of these[SEP]A
+Spectral lines of the elements are<n>A.chaotic<n>B.ordered<n>C.positioned by amplitude<n>D.in phase[SEP]B
+A wave transfers<n>A.amplitude<n>B.wavelength<n>C.frequency<n>D.energy[SEP]D
+Immediately after two separated charged particles are released from rest, both increase in acceleration. The sign of charge of the particles is therefore<n>A.the same<n>B.opposite<n>C.Either of these<n>D.Need more information[SEP]B
+The surface of planet Earth loses energy to outer space due mostly to<n>A.conduction<n>B.convection<n>C.radiation<n>D.radioactivity[SEP]C
+In a series circuit, if the current in one lamp is 2 A, the current in the lamp next to it is<n>A.half, 1 A<n>B.2 A<n>C.Depends on which lamp is closer to the battery<n>D.Not enough information to say[SEP]B
+As a blinking light source approaching you gains speed, you see the frequency of flashes<n>A.increase.<n>B.decrease.<n>C.remain unchanged.<n>D.None of these.[SEP]A
+In the absence of air resistance a ball of mass m is tossed upward to reach a height of 20 m. At the 10-m position half way up the net force on the ball is<n>A.2mg<n>B.mg<n>C.mg/2<n>D.mg/4[SEP]B
+Pumice is a volcanic rock that floats in water. The density of pumice compared with that of water is<n>A.less.<n>B.equal.<n>C.greater.<n>D.none because it sinks.[SEP]A
+When you look at the red petals of a rose the color light you're seeing is<n>A.red.<n>B.green.<n>C.white minus red.<n>D.a mixture of green and yellow.[SEP]A
+Compared with the sound you hear from the siren of a stationary fire engine the sound you hear when it approaches you has an increased<n>A.speed<n>B.frequency<n>C.wavelength<n>D.All of these[SEP]B
+When you squeeze an air-filled party balloon, you increase its<n>A.volume<n>B.mass<n>C.weight<n>D.density[SEP]D
+Polarization is a property of<n>A.transverse waves<n>B.longitudinal waves<n>C.all waves<n>D.None of these[SEP]A
+In a vacuum, an object has no<n>A.buoyant force<n>B.mass<n>C.weight<n>D.All of these[SEP]A
+Temperature is generally proportional to a substance’s<n>A.thermal energy.<n>B.vibrational kinetic energy.<n>C.average translational kinetic energy.<n>D.rotational kinetic energy.[SEP]C
+In a hydraulic press operation, the output piston cannot<n>A.move farther than the input piston<n>B.exceed the force input<n>C.exceed the input piston’s speed<n>D.produce increased energy[SEP]D
+When a spinning system contracts in the absence of an external torque its rotational speed increases and its angular momentum<n>A.decreases<n>B.increases<n>C.remains unchanged<n>D.may increase or decrease[SEP]C
+According to Hooke’s law, if you hang by a tree branch and note how much it bends, then hanging with twice the weight produces<n>A.half the bend.<n>B.the same bend if the branch doesn’t break.<n>C.twice the bend.<n>D.4 times the bend.[SEP]C
+When an increase in speed doubles the kinetic energy of a moving body its momentum<n>A.increases but less than doubles<n>B.doubles<n>C.more than doubles<n>D.depends on factors not stated[SEP]A
+Suppose the number of neutrons in a reactor that is starting up doubles each minute reaching one billion neutrons in 10 minutes. When did the number of neutrons reach half a billion?<n>A.1 minute.<n>B.2 minutes.<n>C.5 minutes.<n>D.9 minutes.[SEP]D
+If an object is already moving and the sum of all the vector forces on a mass is zero, then the object will<n>A.move at a constant speed in a straight line<n>B.accelerate at a constant rate in a straight line<n>C.come to rest<n>D.increase its amount of inertia[SEP]A
+Relativity equations for time, length, and momentum hold true for<n>A.everyday low speeds.<n>B.relativistic speeds.<n>C.Both of these.<n>D.Neither of these.[SEP]C
+Put a saucer of water on your table. A process that then occurs is<n>A.evaporation<n>B.condensation<n>C.Both<n>D.Neither[SEP]C
+A barometer that uses water instead of mercury will be<n>A.shorter<n>B.taller<n>C.equal in height<n>D.inoperable[SEP]B
+A heavy rock and a light rock in free fall (zero air resistance) have the same acceleration. The heavy rock doesn't have a greater acceleration because the<n>A.force due to gravity is the same on each.<n>B.air resistance is always zero in free fall.<n>C.inertia of both rocks is the same.<n>D.ratio of force to mass is the same.[SEP]D
+When an increase in speed doubles the momentum of a moving body its kinetic energy<n>A.increases but less than doubles<n>B.doubles<n>C.more than doubles<n>D.depends on factors not stated[SEP]C
+The equation E = mc^2 indicates that energy<n>A.equals mass moving at the speed of light squared.<n>B.equals moving mass.<n>C.is fundamentally different than mass.<n>D.and mass are closely related.[SEP]D
+General relativity predicts that<n>A.light leaving the Sun is slowed by gravity.<n>B.light passing the Sun is deflected.<n>C.a clock on the Sun’s surface runs faster than on Earth.<n>D.All of these.[SEP]D
+When an element ejects an alpha particle, the atomic number of the resulting element<n>A.reduces by 2<n>B.reduces by 4<n>C.increases by 2<n>D.increases by 4[SEP]A
+As more lamps are connected in parallel in a circuit, the current in the power source<n>A.increases<n>B.decreases<n>C.remains the same<n>D.Not enough information to say[SEP]A
+An airplane with its nose pointing north with an airspeed of 40 km/h in a 30-km/h crosswind (at right angles) has a groundspeed of<n>A.30 km/h<n>B.40 km/h<n>C.50 km/h<n>D.60 km/h[SEP]C
+The energy of an emitted photon is related to its<n>A.amplitude<n>B.polarization<n>C.momentum<n>D.frequency[SEP]D
+Thermal conduction involves mainly<n>A.electrons<n>B.protons<n>C.neutrons<n>D.ions[SEP]A
+Compared with the current in an LED lamp the current in the connecting wire is<n>A.less.<n>B.more.<n>C.the same.<n>D.Need more information.[SEP]C
+Bow waves are produced by waves of water<n>A.overlapping one another<n>B.constructively interfering<n>C.moving slower than the source producing them<n>D.All of these[SEP]D
+The speed of sound is slightly greater on a<n>A.cold day<n>B.hot day<n>C.day with steady temperature<n>D.None of these[SEP]B
+Consider two mercury barometers, one having a cross-sectional area of 1 cm2 and the other 2 cm2. The height of mercury in the narrower tube is<n>A.half<n>B.twice<n>C.the same<n>D.None of these[SEP]C
+The second law of thermodynamics tells us that heat doesn’t flow from<n>A.hot to cold ever<n>B.cold to hot ever<n>C.hot to cold without external energy<n>D.cold to hot without external energy[SEP]D
+In a mixture of hydrogen oxygen and nitrogen gases at a given temperature the molecules having the greatest average speed are those of<n>A.hydrogen.<n>B.oxygen.<n>C.nitrogen.<n>D.But all have the same speed on average.[SEP]A
+Compared with the power input, the power output of an ideal transformer is<n>A.greater<n>B.less<n>C.the same<n>D.Any of these[SEP]C
+The amount of air drag on an 0.8-N flying squirrel dropping vertically at terminal velocity is<n>A.less than 0.8 N<n>B.0.8 N<n>C.greater than 0.8 N<n>D.dependent on the orientation of its body[SEP]B
+The vibrations in a longitudinal wave move in a direction<n>A.along and parallel to the wave<n>B.perpendicular to the wave<n>C.Both of these<n>D.Neither of these[SEP]A
+The potential energy of a compressed spring and the potential energy of a charged object both depend on<n>A.the work done on them<n>B.motion<n>C.Both of these<n>D.Neither of these[SEP]A
+A step-up transformer in an electrical circuit can step up<n>A.voltage<n>B.energy<n>C.Both of these<n>D.Neither of these[SEP]A
+The neutrons in an atom are normally found<n>A.inside the nucleus<n>B.outside the nucleus<n>C.Either of these<n>D.Neither of these[SEP]A
+The greenish-blue color of ocean water is due mostly to light that hasn’t been<n>A.absorbed<n>B.reflected<n>C.scattered<n>D.refracted[SEP]A
+Noise-canceling devices make use of sound<n>A.destruction<n>B.interference<n>C.resonance<n>D.amplification[SEP]B
+Black is the combination of<n>A.all the colors together<n>B.two or more appropriate colors<n>C.light when a prism is held upside down<n>D.None of these[SEP]D
+In a circuit of two lamps in parallel, if the current in one lamp is 2 A, the current in the other lamp is<n>A.about 1 A<n>B.2 A<n>C.Depends on which lamp is closer to the battery<n>D.Not enough information to say[SEP]D
+Which of these changes when light refracts in passing from one medium to another?<n>A.Speed only<n>B.Wavelength only<n>C.Both speed and wavelength<n>D.Neither of these[SEP]C
+If the frequency of one source of sound is 500 Hz and a second sound source is 504 Hz, then when the two waves interfere with each other, the beat frequency will be<n>A.2 Hz<n>B.4 Hz<n>C.8 Hz<n>D.16 Hz[SEP]B
+The loudness of a sound is most closely related to its<n>A.frequency<n>B.period<n>C.wavelength<n>D.amplitude[SEP]D
+The electric field inside the dome of a Van de Graaff generator is zero when the dome is<n>A.charged<n>B.uncharged<n>C.Either of these<n>D.Neither of these[SEP]C
+The redness of a sunrise or sunset is due mostly to light that hasn’t been<n>A.absorbed<n>B.transmitted<n>C.scattered<n>D.polarized[SEP]C
+When a nucleus of uranium-238 emits an alpha particle, left behind is<n>A.thorium-242<n>B.thorium-238<n>C.thorium-234<n>D.radium-214[SEP]C
+The Doppler effect occurs when a source of sound moves<n>A.toward you<n>B.away from you<n>C.Both of these<n>D.None of these[SEP]C
+When a proton is plucked from an atomic nucleus, the atom has a decrease in<n>A.charge<n>B.energy<n>C.mass<n>D.all of these[SEP]D
+If the Sun were twice as massive, its pull on Mars would be<n>A.unchanged<n>B.twice as much<n>C.half as much<n>D.four times as much[SEP]B
+During the time an aircraft produces a sonic boom the aircraft is<n>A.breaking the sound barrier<n>B.pulling out of a subsonic dive<n>C.flying faster than sound<n>D.Each of these produces a sonic boom[SEP]C
+When food is exposed to gamma radiation, the food<n>A.becomes slightly radioactive<n>B.doesn’t become radioactive<n>C.will spoil faster<n>D.should be avoided[SEP]B
+The red glow in the neon tube of an advertising sign is a result of<n>A.fluorescence.<n>B.coherence.<n>C.polarization.<n>D.de-excitation.[SEP]D
+Light that is not transmitted by opaque materials is<n>A.reflected or converted to internal energy in the material.<n>B.mainly reflected.<n>C.mainly refracted.<n>D.transmitted at a lower frequency.[SEP]A
+Imagine you're standing on the surface of a shrinking planet. If it shrinks to one-tenth its original diameter with no change in mass on the shrunken surface you'd weigh<n>A.1/100 as much<n>B.10 times as much<n>C.100 times as much<n>D.1000 times as much[SEP]C
+A magnetic force acting on a beam of electrons can change its<n>A.direction<n>B.energy<n>C.Both of these<n>D.Neither of these[SEP]A
+Microscopic slush in water tends to make the water<n>A.more dense<n>B.less dense<n>C.more slippery<n>D.warmer[SEP]A
+The speed of sound in air depends on<n>A.frequency.<n>B.wavelength.<n>C.air temperature.<n>D.All of these.[SEP]C
+Heat comes from the Sun to Earth by the process of<n>A.conduction<n>B.convection<n>C.radiation<n>D.All of these, although radiation is greatest[SEP]C
+A torque is a force<n>A.like any other force<n>B.multiplied by a lever arm<n>C.that is fictitious<n>D.that accelerates things[SEP]B
+All of the following are electromagnetic waves EXCEPT<n>A.microwaves<n>B.light waves<n>C.X-rays<n>D.None is outside the family; all are electromagnetic waves[SEP]D
+Big brother and little sister can balance on a seesaw because of balanced<n>A.forces<n>B.torques<n>C.energies<n>D.All of these[SEP]B
+Any atom that emits an alpha particle or beta particle<n>A.becomes an atom of a different element always.<n>B.may become an atom of a different element.<n>C.becomes a different isotope of the same element.<n>D.increases its mass.[SEP]A
+Regelation occurs due to water’s<n>A.high specific heat<n>B.open-structured ice crystals<n>C.high rate of expansion<n>D.slight tendency to freeze when its temperature is lowered[SEP]B
+A big fish swims upon and swallows a small fish that is at rest. Right after lunch, the fattened big fish has a change in<n>A.speed<n>B.momentum<n>C.Both<n>D.Neither[SEP]A
+A capacitor can store<n>A.charge<n>B.energy<n>C.Both of these<n>D.Neither of these[SEP]C
+For a tube closed at one end, the length of the tube at a frequency of 256 Hz will be<n>A.one-quarter the value for a tube open at both ends<n>B.one-half the value for a tube open at both ends<n>C.twice the value for a tube open at both ends<n>D.four times the value for a tube open at both ends[SEP]B
+The period of a 10-Hz wave is<n>A.1/10 s<n>B.1.0 s<n>C.10 s<n>D.None of these[SEP]A
+If the Sun collapsed to become a black hole Planet Earth would<n>A.continue in its present orbit.<n>B.likely be sucked into the black hole.<n>C.be pulled apart by tidal forces.<n>D.Both C and D.[SEP]A
+The electric field between a pair of oppositely charged parallel plates<n>A.gets weaker with distance inside the plates<n>B.follows the inverse-square law<n>C.Both of these<n>D.Neither of these[SEP]D
+The flight of a blimp best illustrates<n>A.Archimedes’ principle<n>B.Pascal’s principle<n>C.Bernoulli’s principle<n>D.Boyle’s law[SEP]A
+The distance of your image behind a plane mirror is equal to<n>A.half your height<n>B.half your distance from the mirror<n>C.your distance in front of the mirror<n>D.more than your distance in front of the mirror[SEP]C
+The discrete orbits of electrons are best understood when modeled by<n>A.high-speed particles<n>B.particles on springs<n>C.waves<n>D.photons[SEP]C
+Heat engines, such as a jet engine, are more efficient when run at<n>A.high temperatures<n>B.constant temperatures<n>C.low temperatures<n>D.a constant rate[SEP]A
+The phenomenon of interference occurs for<n>A.sound waves<n>B.light waves<n>C.Both of these<n>D.Neither of these[SEP]C
+As more lamps are connected in a series circuit the current in the power source<n>A.increases.<n>B.decreases.<n>C.remains much the same.<n>D.Need more information.[SEP]B
+When you buy a pipe in a hardware store, the water isn’t included. When you buy copper wire, electrons<n>A.must be supplied by you<n>B.are included in the wire<n>C.may fall out—hence insulation<n>D.None of these[SEP]B
+When a uranium nucleus undergoes fission the energy released is primarily in the form of<n>A.gamma radiation.<n>B.kinetic energy of fission fragments.<n>C.kinetic energy of ejected neutrons.<n>D.All of these about equally.[SEP]B
+Most of the radiation in Earth’s biosphere is<n>A.natural background radiation<n>B.the result of military activities<n>C.from nuclear power plants<n>D.in the form of cosmic rays[SEP]A
+When white light enters a prism green light is bent more than<n>A.blue light.<n>B.violet light.<n>C.red light.<n>D.None of these choices is correct.[SEP]C
+When a ball at rest hangs by a single vertical string tension in the string is mg. If the ball is made to move in amhorizontal circle so that the string describes a cone string tension<n>A.is mg<n>B.is greater than mg always<n>C.is less than mg always<n>D.may be greater or less than mg depending on the speed of the ball[SEP]B
+When a tin can is whirled in a horizontal circle, the net force on the can acts<n>A.inward<n>B.outward<n>C.upward<n>D.None of these[SEP]A
+The highest ocean tides occur when Earth and the Moon are<n>A.lined up with the Sun<n>B.at right angles to the Sun<n>C.at any angle to the Sun<n>D.lined up during spring[SEP]A
+Lift a 100-N crate with an ideal pulley system by pulling a rope downward with 25 N of force. For every 1-m length of rope pulled down, the crate rises<n>A.25 cm<n>B.25 m<n>C.50 cm<n>D.None of these[SEP]A
+Hot sand cools off faster at night than does vegetation. Compared with vegetation, sand’s specific heat capacity is<n>A.lower<n>B.higher<n>C.about the same<n>D.Can’t say[SEP]A
+The color of light most intense in the solar radiation curve is<n>A.infrared<n>B.red<n>C.yellow-green<n>D.violet[SEP]C
+If the current in the filament of a lamp is 3 A, the current in the connecting wire is<n>A.less than 3 A<n>B.3 A<n>C.more than 3 A<n>D.Not enough information to say[SEP]B
+If two protons and two neutrons are removed from the nucleus of neon-20, a nucleus of which element remains?<n>A.Magnesium-22<n>B.Magnesium-20<n>C.Oxygen-18<n>D.Oxygen-16[SEP]D
+If a star that is 20 light-years from Earth explodes, gravitational waves from the explosion would reach Earth in<n>A.less than 20 years.<n>B.20 years.<n>C.more than 20 years.<n>D.None of these.[SEP]B
+In a mixture of hydrogen, oxygen, and nitrogen gases at a given temperature, the fastest molecules on average are those of<n>A.hydrogen<n>B.oxygen<n>C.nitrogen<n>D.All have same average speed[SEP]A
+The mutual induction of electric and magnetic fields can produce<n>A.light<n>B.energy<n>C.Both of these<n>D.Neither of these[SEP]A
+When a model car speeds up to three times its original speed, its kinetic energy is<n>A.the same<n>B.twice as great<n>C.three times greater<n>D.None of these[SEP]D
+If an iron nucleus split in two, its fission fragments would have<n>A.less mass per nucleon<n>B.more mass per nucleon<n>C.the same mass per nucleon<n>D.either more or less mass per nucleon[SEP]B
+The surface of Planet Earth loses energy to outer space due mostly to<n>A.conduction.<n>B.convection.<n>C.radiation.<n>D.radioactivity.[SEP]C
+The direction of natural processes is from states of<n>A.higher order to lower order<n>B.lower order to higher order<n>C.disorganization to organization<n>D.disorder to equilibrium[SEP]A
+A principal source of the Earth’s internal energy is<n>A.tidal friction.<n>B.gravitational pressure.<n>C.radioactivity.<n>D.solar radiation.[SEP]C
+A diffraction grating relies on light<n>A.interference<n>B.amplitudes<n>C.variations in brightness<n>D.being composed of photons[SEP]A
+A satellite in Earth orbit is above Earth’s<n>A.atmosphere<n>B.gravitational field<n>C.Both<n>D.Neither[SEP]A
+The time it takes for a pendulum swinging to and fro refers to its<n>A.frequency<n>B.period<n>C.wavelength<n>D.amplitude[SEP]B
+As entropy in a system increases, energy in the system<n>A.becomes more ordered<n>B.becomes less ordered<n>C.reaches equilibrium<n>D.moves toward destruction[SEP]B
+When water changes to steam, energy is<n>A.absorbed by the water<n>B.released by the water<n>C.conserved as the phase change occurs<n>D.changed to a different form[SEP]A
+According to Coulomb, a pair of charged particles placed twice as close to each other experience a force<n>A.twice as strong<n>B.four times as strong<n>C.half as strong<n>D.one-fourth as strong[SEP]B
+The factors, both of which will increase the magnetic field strength of an electromagnet, are<n>A.increased electrical current and fewer coils of wire<n>B.increased diameter of coil and an increase in the number of coils<n>C.an increase in the electrical current and using a strong ferromagnetic material like iron<n>D.using an air core instead of iron and increasing the diameter of the coil[SEP]C
+The team that wins in a tug-of-war is the team that<n>A.produces more tension in the rope than the opponent<n>B.pushes hardest on the ground<n>C.Both<n>D.Neither[SEP]B
+Which type of radiation from cosmic sources predominates on the inside of high-flying commercial airplanes?<n>A.Alpha<n>B.Beta<n>C.Gamma<n>D.None of these[SEP]C
+Thermal convection involves mainly<n>A.radiant energy<n>B.fluids<n>C.insulators<n>D.All of these[SEP]B
+A 10-Ω resistor carries 10 A. The voltage across the resistor is<n>A.0<n>B.more than 0 but less than 10 V<n>C.10 V<n>D.more than 10 V[SEP]D
+A cannonball is fired horizontally at 10 m/s from a cliff. Its speed one second after being fired is about<n>A.10 m/s<n>B.14 m/s<n>C.16 m/s<n>D.20 m/s[SEP]B
+The average speed of a gazelle traveling a distance of 2 km in a time of one-half hour is<n>A.1 km/h<n>B.2 km/h<n>C.4 km/h<n>D.greater than 4 km/h[SEP]C
+The metal detectors people walk through at airports operate via<n>A.Ohm’s law<n>B.Faraday’s law<n>C.Coulomb’s law<n>D.Newton’s laws[SEP]B
+Sound travels in<n>A.solids<n>B.liquids<n>C.gases<n>D.All of these[SEP]D
+When a fusion reaction converts a pair of hydrogen isotopes to an alpha particle and a neutron most of the energy released is in the form of<n>A.gamma radiation.<n>B.kinetic energy of the alpha particle.<n>C.kinetic energy of the neutron.<n>D.All of these about equally.[SEP]C
+Polarization is a property of<n>A.transverse waves.<n>B.longitudinal waves.<n>C.all waves.<n>D.None of these.[SEP]A
+The phenomenon of beats results from sound<n>A.reflection.<n>B.refraction.<n>C.interference.<n>D.All of these.[SEP]B
+The lowest possible temperature is absolute zero, at<n>A.0 kelvin<n>B.−273°C<n>C.Both are the same<n>D.None of these[SEP]C
+Refraction occurs when a wave crosses a boundary and changes<n>A.speed and direction<n>B.intensity<n>C.frequency<n>D.amplitude[SEP]A
+When you tap a piece of wood, it will produce a characteristic sound related to its<n>A.wavelength<n>B.amplitude<n>C.period<n>D.natural frequency[SEP]D
+When wind speeds up as it blows over the top of a hill, atmospheric pressure there<n>A.increases<n>B.decreases<n>C.isn’t affected<n>D.reduces to zero[SEP]B
+When white light passes through a prism, the light that bends more than green is<n>A.red<n>B.yellow<n>C.blue<n>D.None of these[SEP]C
+If you travel at high speed, then compared with your friends who “stay at home,” you are<n>A.older.<n>B.younger.<n>C.neither younger nor older.<n>D.longer.[SEP]B
+The component of velocity that can remain constant for a tossed baseball is<n>A.horizontal<n>B.vertical<n>C.Either of these<n>D.None of these[SEP]A
+The crystals that make up minerals are composed of<n>A.atoms with a definite geometrical arrangement.<n>B.molecules that perpetually move.<n>C.X-ray patterns.<n>D.3-dimensional chessboards.[SEP]A
+Two vectors, one 3 N and the other 4 N, can have a resultant of<n>A.0 N<n>B.5 N<n>C.8 N<n>D.Any of these[SEP]B
+Radioactivity has been around on Earth since the<n>A.middle of the 1900s<n>B.Industrial Revolution<n>C.advent of medical technology<n>D.Earth formed[SEP]D
+When the shadow of the Moon falls on Earth, we have a<n>A.lunar eclipse.<n>B.solar eclipse.<n>C.solar eclipse if it’s daytime and lunar eclipse if it’s nighttime.<n>D.very dangerous event.[SEP]B
+In both fission and fusion, energy is released while mass<n>A.decreases<n>B.remains unchanged; is conserved<n>C.increases<n>D.may decrease or increase[SEP]A
+When relatively slow-moving molecules condense from the air, the temperature of the remaining air tends to<n>A.remain unchanged<n>B.decrease<n>C.increase<n>D.spread out uniformly[SEP]C
+If the volume of an object were to double, with no change in mass, its density would<n>A.halve.<n>B.double.<n>C.be the same.<n>D.None of these.[SEP]A
+The pressure at the bottom of a pond does NOT depend on the<n>A.acceleration due to gravity.<n>B.water density.<n>C.depth of the pond.<n>D.surface area of the pond.[SEP]D
+The blueness of the daytime sky is due mostly to light<n>A.absorption<n>B.transmission<n>C.reflection<n>D.scattering[SEP]D
+A galvanometer can be calibrated to read electric<n>A.current<n>B.voltage<n>C.Either of these<n>D.Neither of these[SEP]C
+Which of these temperatures is likely when a container of water at 20°C is mixed with water at 28°C?<n>A.19°C<n>B.22°C<n>C.30°C<n>D.Higher than 30°C[SEP]B
+To view your full-face image in a steamy mirror compared with the height of your face the minimum height of the patch to wipe away is<n>A.one-quarter.<n>B.one-half.<n>C.the same.<n>D.dependent on your distance from the mirror.[SEP]B
+The vibrations in a transverse wave move in a direction<n>A.along the wave<n>B.perpendicular to the wave<n>C.Both of these<n>D.Neither of these[SEP]B
+A 1134-Hz tuning fork is sounded at the same time a piano note is struck. You hear three beats per second. The frequency of the piano string is<n>A.1131 Hz<n>B.1134 Hz<n>C.1137 Hz<n>D.More information is needed[SEP]D
+Huygens’ principle for light is primarily described by<n>A.waves<n>B.rays<n>C.particles<n>D.photons[SEP]A
+When the temperature of a strip of iron is increased, the length of the strip<n>A.also increases.<n>B.actually decreases.<n>C.may increase and may decrease.<n>D.decreases in width as it gets longer.[SEP]A
+When light undergoes interference, it can sometimes<n>A.build up to more than the sum of amplitudes<n>B.cancel completely<n>C.Both of these<n>D.Neither of these[SEP]B
+When the color yellow is seen on your TV screen the phosphors being activated on the screen are<n>A.mainly yellow.<n>B.blue and red.<n>C.green and yellow.<n>D.red and green.[SEP]D
+Which of these does NOT belong in the family of electromagnetic waves?<n>A.Light<n>B.Sound<n>C.Radio waves<n>D.X-rays[SEP]B
+A math book and a physics book sitting on a table are tied together with a length of string. With the string taut one book is pushed off the edge of the table. As it falls the other book is dragged horizontally across the table surface. With no friction acceleration of the books is<n>A.zero<n>B.g/2<n>C.g<n>D.a value between zero and g[SEP]D
+A motor and a generator are<n>A.similar devices<n>B.very different devices<n>C.forms of transformers<n>D.energy sources[SEP]A
+As more lamps are connected in parallel in a circuit the current in the power source<n>A.increases.<n>B.decreases.<n>C.remains much the same.<n>D.Need more information.[SEP]A
+Newton’s law of cooling applies to objects that<n>A.cool<n>B.warm up<n>C.Both<n>D.Neither[SEP]C
+The fact that the Moon always shows its same face to Earth is evidence that the Moon rotates about its axis about once per<n>A.day<n>B.month<n>C.year<n>D.None of these for the moon does not rotate about an axis[SEP]B
+Consider a ball rolling in a horizontal circular path on the inside surface of a cone. The normal force on the ball<n>A.is mg<n>B.is greater than mg always<n>C.may be greater or less than mg<n>D.is less than mg always[SEP]B
+The compressions and rarefactions in sound normally travel<n>A.in the same direction<n>B.in opposite directions<n>C.at right angles to each other<n>D.None of these[SEP]A
+The power required to raise a 100-kg crate a vertical distance of 2 m in a time of 4 s is<n>A.200 W<n>B.500 W<n>C.800 W<n>D.2000 W[SEP]B
+The phenomenon of beats is the result of sound<n>A.destruction<n>B.interference<n>C.resonance<n>D.amplification[SEP]B
+Interference is characteristic of<n>A.sound waves<n>B.light waves<n>C.water waves<n>D.All of these[SEP]D
+In either a fission event or a fusion event, a quantity that remains unchanged is the<n>A.kinetic energy<n>B.mass<n>C.number of nucleons<n>D.binding of nucleons[SEP]C
+The magnetic force on a moving charged particle can change the particle's<n>A.speed<n>B.direction<n>C.Both of these<n>D.Neither of these[SEP]B
+If you were to travel at a speed close to the speed of light, you could notice that your own<n>A.mass changes.<n>B.pulse decreases.<n>C.Both of these.<n>D.Neither of these.[SEP]D
+Electricity and magnetism connect to form<n>A.mass<n>B.energy<n>C.ultrahigh-frequency sound<n>D.light[SEP]D
+Sound travels in air by a series of<n>A.compressions<n>B.rarefactions<n>C.Both of these<n>D.Neither of these[SEP]C
+When a cannonball is fired from a cannon, both the cannonball and the cannon experience equal<n>A.amounts of force<n>B.accelerations<n>C.Both<n>D.Neither[SEP]A
+The nucleus of an electrically neutral iron atom contains 26 protons. The number of electrons this iron atom has is<n>A.52<n>B.26<n>C.24<n>D.None.[SEP]B
+To say that a rose petal is red is to say that it<n>A.absorbs red<n>B.reflects red<n>C.emits red<n>D.transmits red[SEP]B
+Compared with a sound of 60 decibels, a sound of 80 decibels has an intensity<n>A.10 times greater<n>B.100 times greater<n>C.1000 times greater<n>D.more than 1000 times greater[SEP]B
+When red and blue light are overlapped, the color produced is<n>A.magenta<n>B.yellow<n>C.cyan<n>D.white[SEP]A
+When 100 J are put into a device that puts out 40 J of useful work, the efficiency of the device is<n>A.40%<n>B.50%<n>C.60%<n>D.140%[SEP]A
+Shock waves are produced by waves of sound<n>A.overlapping one another<n>B.constructively interfering<n>C.moving slower than the source producing them<n>D.All of these[SEP]D
+A rock suspended by a weighing scale weighs 5 N out of water and 3 N when submerged in water. What is the buoyant force on the rock?<n>A.3 N<n>B.5 N<n>C.8 N<n>D.None of these[SEP]D
+The work done on a 100-kg crate that is hoisted 2 m in a time of 4 s is<n>A.200 J<n>B.500 J<n>C.800 J<n>D.2000 J[SEP]D
+A capacitor loses half its remaining charge every second. If after five seconds its charge is q what was its initial charge?<n>A.4q.<n>B.8q.<n>C.16q.<n>D.32q.[SEP]D
+The mass of an atom comes mostly from its _ ; and its volume from its _.<n>A.nucleons; nucleons.<n>B.electrons; electrons.<n>C.electrons; nucleons.<n>D.nucleons; electrons.[SEP]D
+The definition of magnetic inclination is the angle between<n>A.magnetic north and geographic north<n>B.magnetic north and geographic south<n>C.the earth’s magnetic field at any point and the vertical<n>D.the earth’s magnetic field at any point and the horizontal[SEP]D
+The pitch of a sound is mostly related to its<n>A.intensity<n>B.frequency<n>C.amplitude<n>D.speed[SEP]B
+As more lamps are connected to a series circuit, the current in the power source<n>A.increases<n>B.decreases<n>C.remains the same<n>D.None of these[SEP]B
+When an element ejects an alpha particle, the mass number of the resulting element<n>A.reduces by 2<n>B.reduces by 4<n>C.increases by 2<n>D.increases by 4[SEP]B
+An electron can be speeded up by<n>A.an electric field<n>B.a magnetic field<n>C.Both of these<n>D.Neither of these[SEP]A
+A certain element emits 1 alpha particle, and its products then emit 2 beta particles in succession. The atomic number of the resulting element is changed by<n>A.zero<n>B.minus 1<n>C.minus 2<n>D.plus 1[SEP]A
+When an object is set vibrating by a wave that has a matching frequency, what occurs is<n>A.forced vibration<n>B.resonance<n>C.refraction<n>D.amplitude reduction[SEP]B
+The red glow in the neon tube of an advertising sign is a result of<n>A.fluorescence<n>B.incandescence<n>C.de-excitation<n>D.polarization[SEP]C
+At very high speeds, an object appears to an observer at rest to be<n>A.shorter in the direction of travel.<n>B.shrunken in all directions.<n>C.shorter in the direction perpendicular to travel.<n>D.longer in all directions.[SEP]A
+When a wave moves from shallow water to deep water, the<n>A.frequency decreases, the wavelength increases, and the speed increases<n>B.frequency does not change, the wavelength increases, and the speed increases<n>C.frequency does not change, the wavelength decreases, and the speed decreases<n>D.frequency does not change, the wavelength increases, and the speed decreases[SEP]B
+When you drop a ball from rest it accelerates downward at 9.8 m/s^2. If you instead throw it downward assuming no air resistance its acceleration immediately after leaving your hand is<n>A.9.8 m/s2<n>B.more than 9.8 m/s2<n>C.less than 9.8 m/s2<n>D.Cannot say unless the speed of throw is given.[SEP]A
+Carbon-14 is primarily produced by cosmic radiation in the<n>A.atmosphere<n>B.food we eat<n>C.Earth’s interior<n>D.fallout of nuclear bomb tests[SEP]A
+Chain reactions in a fission reactor are caused by<n>A.kinetic energy<n>B.energy conversion<n>C.mass conversion<n>D.ejected neutrons[SEP]D
+Satellites in circular Earth orbit maintain a constant speed because gravitational force on them is<n>A.zero<n>B.practically zero<n>C.appreciably weaker than at Earth’s surface<n>D.without a component of force along their circular path[SEP]D
+The complementary color of blue is<n>A.magenta<n>B.yellow<n>C.cyan<n>D.white[SEP]B
+The difference between dc and ac in electric circuits is that in dc, charges flow<n>A.steadily in one direction<n>B.in one direction<n>C.to and fro<n>D.All of these[SEP]B
+To receive an electric shock there must be a<n>A.current in one direction.<n>B.presence of moisture.<n>C.high voltage and low body resistance.<n>D.voltage difference across part or all of your body.[SEP]D
+A karate chop delivers a force of 3000 N to a board that breaks. The force that the board exerts on the hand during this event is<n>A.less than 3000 N<n>B.3000 N<n>C.greater than 3000 N<n>D.Need more information[SEP]B
+Find the speed of a wave by multiplying its frequency by its<n>A.period<n>B.wavelength<n>C.amplitude<n>D.None of these[SEP]B
+The magnitude of the gravitational force on a satellite is constant if the orbit is<n>A.parabolic<n>B.circular<n>C.elliptical<n>D.All of these[SEP]B
+The impulse–momentum relationship is a direct result of Newton’s<n>A.first law<n>B.second law<n>C.third law<n>D.law of gravity[SEP]B
+A common nuclear fission reactor<n>A.heats water<n>B.generates electricity directly<n>C.gets energy from nothing<n>D.is a major polluter of the atmosphere[SEP]A
+The process of boiling water tends to<n>A.warm the water<n>B.cool the water<n>C.Both<n>D.Neither[SEP]B
+When you scale up an object to 3 times its linear size, the surface area increases by<n>A.3 and the volume by 9.<n>B.3 and the volume by 27.<n>C.9 and the volume by 27.<n>D.4 and the volume by 8.[SEP]C
+If you change the magnetic field in a closed loop of wire, what is created in the loop is a(n)<n>A.current<n>B.voltage<n>C.electric field<n>D.All of these[SEP]D
+Clocks on a fast-moving spaceship whizzing past Earth appear to run slow when viewed from<n>A.inside the spaceship.<n>B.Earth.<n>C.Both of these.<n>D.Neither of these.[SEP]B
+The model of light most supported by the photoelectric effect is the<n>A.wave model<n>B.particle model<n>C.Both of these<n>D.Neither of these[SEP]B
+Compared with a fundamental tone, the frequency of its second harmonic is<n>A.half as much<n>B.twice as much<n>C.the same<n>D.four times as much[SEP]B
+A string is plucked producing four loops (antinodes). The length of the string is 12.00 m. The wavelength of the wave must be<n>A.48.0 m<n>B.24.0 m<n>C.6.00 m<n>D.3.00 m[SEP]C
+During the time an aircraft produces a sonic boom, the aircraft is<n>A.breaking the sound barrier<n>B.pulling out of a subsonic dive<n>C.flying faster than sound<n>D.All of these[SEP]C
+The principal source of Earth’s internal energy is<n>A.tidal friction<n>B.gravitational pressure<n>C.radioactivity<n>D.geothermal heat[SEP]C
+When you brush your hair and scrape electrons from your hair, the charge of your hair becomes<n>A.positive<n>B.negative<n>C.Both of these<n>D.Neither of these[SEP]A
+Astrophysicists are able to identify the elements in the outer layers of a star by studying its<n>A.Doppler effect.<n>B.molecular structure.<n>C.temperature.<n>D.spectrum.[SEP]D
+Relativistic equations for time dilation length contraction and relativistic momentum and energy hold true<n>A.at speeds near that of light.<n>B.at everyday low speeds.<n>C.at all speeds.<n>D.only approximately.[SEP]C
+In his special theory of relativity, Einstein stated that the laws of physics are<n>A.different in different situations.<n>B.common sense applied to microscopic and macroscopic things.<n>C.the same in all frames of reference.<n>D.the same in all uniformly moving frames of reference.[SEP]D
+When an element ejects a beta particle, the atomic number of that element<n>A.reduces by 1<n>B.increases by 1<n>C.reduces by 2<n>D.increases by 2[SEP]B
+The amount of heat transferred to a system can be measured in<n>A.calories<n>B.joules<n>C.Either<n>D.Neither[SEP]C
+Compared with the sound you hear from the siren of a stationary fire engine, its sound when it approaches you has an increased<n>A.speed<n>B.frequency<n>C.Both of these<n>D.Neither of these[SEP]B
+Light reflecting from a smooth surface undergoes a change in<n>A.frequency.<n>B.wavelength.<n>C.All of these.<n>D.None of these.[SEP]D
+What Einstein discovered about space and time is that they<n>A.are separate entities.<n>B.are parts of one whole.<n>C.follow an inverse-square law.<n>D.are special to space travelers.[SEP]B
+All parts of a laser beam have the same<n>A.frequency<n>B.phase<n>C.speed<n>D.All of these[SEP]D
+The rotational inertia of an object is greater when most of the mass is located<n>A.near the rotational axis<n>B.away from the axis<n>C.on the rotational axis<n>D.off center[SEP]B
+When small pieces of material are assembled into a larger piece, the combined surface area<n>A.greatly increases<n>B.slightly increases<n>C.decreases<n>D.is unchanged[SEP]C
+A rainbow is the result of light in raindrops that undergoes<n>A.internal reflection<n>B.dispersion<n>C.refraction<n>D.All of these[SEP]D
+In the atomic nucleus, electrical forces tend to<n>A.hold particles together<n>B.push particles apart<n>C.produce orbital motion<n>D.charge particles[SEP]B
+The fact that the acceleration of free fall is the same for all masses is explained by Newton’s<n>A.first law<n>B.second law<n>C.third law<n>D.law of action–reaction[SEP]B
+Compared with radiation from the Sun, terrestrial radiation has a lower<n>A.wavelength<n>B.frequency<n>C.Both<n>D.Neither[SEP]B
+When we speak of time dilation, we mean that time<n>A.compresses with speed.<n>B.stretches with speed.<n>C.is a constant at all speeds.<n>D.is related to space.[SEP]B
+The magnetic field lines about a current-carrying wire form<n>A.circles<n>B.radial lines<n>C.eddy currents<n>D.energy loops[SEP]A
+An inflated balloon with a heavy rock tied to it is dropped into a deep lake. As the balloon sinks deeper and deeper the buoyant force acting on it<n>A.increases.<n>B.decreases.<n>C.remains largely unchanged.<n>D.Need more information.[SEP]B
+A radioactive sample has a half-life of 1 hour. If we start with 1.000 gram of it at noon, how much remains at 3:00 pm?<n>A.0.50 g<n>B.0.25 g<n>C.0.125 g<n>D.0.0625 g[SEP]C
+Boiling and freezing occur when water is subjected to<n>A.decreased temperatures<n>B.decreased atmospheric pressure<n>C.increased temperatures<n>D.increased atmospheric pressure[SEP]B
+When you bend the branch of a tree by hanging on its end, the top side of the branch is under<n>A.tension.<n>B.compression.<n>C.Both.<n>D.Neither.[SEP]A
+A simple and correct way to comprehend satellites orbiting Earth is to view them as<n>A.balanced between gravitational and centripetal forces.<n>B.beyond the main pull of Earth gravity.<n>C.in mechanical equilibrium with a net force of zero.<n>D.having sufficient tangential velocities to fall around rather than into Earth.[SEP]D
