@@ -1,5 +1,3 @@
-![image](https://github.com/IEIT-Yuan/Yuan2.0-M32/assets/38548026/1aa3083d-4396-4e3c-9aa0-707ff6887b60)![image](https://github.com/IEIT-Yuan/Yuan2.0-M32/assets/38548026/d2b9bea9-ef8b-4ec6-992f-17ff3c5c8f3b)
-
 
 <div align="center">
 <h1>
@@ -11,10 +9,9 @@
 <div align="center">
 
   <a href="https://airyuan.cn/home" target="_blank">
-    <img alt="Homepage" src="https://img.shields.io/badge/Yuan2.0-red?style=flat&label=HomePage&link=https%3A%2F%2Fairyuan.cn%2Fhome" />
+    <img alt="Homepage" src="https://img.shields.io/badge/Yuan%202.0-red?style=flat&logoColor=css&label=HomePage&labelColor=rgb&link=https%3A%2F%2Fairyuan.cn%2Fhome" />
   </a>
-  <a href="https://airyuan.cn/home" target="_blank">
-    <img alt="Chat" src="https://img.shields.io/badge/Yuan2.0%20MoE-yellow?style=flat&logoColor=css&label=Chat&labelColor=7289da&link=https%3A%2F%2Fairyuan.cn%2Fhome" />
+    
   <a href="code_license">
     <img alt="Code License" src="https://img.shields.io/badge/Apache%202.0%20-green?style=flat&label=Code%20License&link=https%3A%2F%2Fgithub.com%2FIEIT-Yuan%2FYuan-2.0-MoE%3Ftab%3DApache-2.0-1-ov-file"/>
   </a>
@@ -28,22 +25,13 @@
 
 
 <p align="center">
-👾 <a href="https://www.modelscope.cn/profile/YuanLLM" target="_blank">ModelScope</a> • 🤗 <a href="https://huggingface.co/IEITYuan" target="_blank">Hugging Face</a> •  💬 <a href="resources/WECHAT.md" target="_blank">WeChat</a>• 📎  <a href="https://arxiv.org/ftp/arxiv/papers/2311/2311.15786.pdf" target="_blank">源2.0MoE论文</a>
+👾 <a href="https://www.modelscope.cn/profile/YuanLLM" target="_blank">ModelScope</a> • 🤗 <a href="https://huggingface.co/IEITYuan" target="_blank">Hugging Face</a> •  💬 <a href="https://github.com/IEIT-Yuan/Yuan-2.0/blob/main/images/%E6%BA%90%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.png" target="_blank">WeChat</a>• 📎  <a href="https://arxiv.org/ftp/arxiv/papers/2311/2311.15786.pdf" target="_blank">源2.0MoE论文</a>
 </p>
 
 
-<h4 align="center">
-    <p>
-        <b>简体中文</b> |
-        <a href="./README-EN.md">English</a>
-    <p>
-</h4>
 
 
 
-
-
-<!-- markdown-toc end -->
 -----
 
 
