@@ -1,4 +1,4 @@
-# 基于vLLM的Yuan2.0-2Bx32推理服务部署
+# 基于vLLM的Yuan2.0-M32-HF推理服务部署
 
 ## 配置vLLM环境
 vLLM环境配置主要分为以下两步，拉取我们提供的镜像创建docker，以及安装vllm运行环境
