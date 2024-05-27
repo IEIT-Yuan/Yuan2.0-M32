@@ -10,7 +10,7 @@ docker pull yuanmodel/vllm-v0.4.0:latest
 
 # 创建容器, 可以用"-v"挂载至你的本地目录（此处挂载了mnt路径）
 docker run --gpus all -itd --network=host  -v /mnt:/mnt --cap-add=IPC_LOCK --device=/devinfiniband --privileged 
---name vllm_yuan --ulimit core=0 --ulimit memlock=1 --ulimit stack=68719476736 --shm-size=1000G vllm-v0.4.0:latest
+--name vllm_yuan --ulimit core=0 --ulimit memlock=1 --ulimit stack=68719476736 --shm-size=1000G yuanmodel/vllm-v0.4.0:latest
 
 # 进入容器
 docker exec -it vllm_yuan bash
