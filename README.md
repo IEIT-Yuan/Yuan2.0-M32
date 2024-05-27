@@ -78,7 +78,7 @@ Fig.1: Yuan 2.0-M32 架构图
 | Yuan2.0-M32 |    16K    |    Megatron    | [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32/) \| [HuggingFace](https://huggingface.co/IEIT-Yuan/Yuan2-M32)
 | Yuan2.0-M32-HF |    16K    | HuggingFace    | [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-hf) \| [HuggingFace](https://huggingface.co/IEIT-Yuan/Yuan2-M32-hf)
 | Yuan2.0-M32-GGUF |    16K    | GGUF    | [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-gguf) \| [HuggingFace](https://huggingface.co/IEIT-Yuan/Yuan2-M32-gguf)
-| Yuan-2.0-MoE-GGUF-INT4 |    16K    | GGUF    | [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-gguf-int4/) \| [HuggingFace](https://huggingface.co/IEIT-Yuan/Yuan2-M32-gguf-int4/)
+| Yuan2.0-M32-GGUF-INT4 |    16K    | GGUF    | [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-gguf-int4/) \| [HuggingFace](https://huggingface.co/IEIT-Yuan/Yuan2-M32-gguf-int4/)
 
 
 
