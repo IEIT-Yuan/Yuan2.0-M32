@@ -14,7 +14,7 @@ from megatron import print_rank_0
 from megatron.core import mpu
 from megatron.checkpointing import load_checkpoint
 from megatron.initialize import initialize_megatron
-from megatron.model import GPTModel
+from megatron.model import YuanModel
 from megatron.training import get_model
 from megatron.arguments import core_transformer_config_from_args
 from megatron.text_generation import generate_and_post_process
@@ -25,6 +25,7 @@ from megatron import get_tokenizer
 import re
 from typing import Optional
 import json
+
 
 def parse_code_block(string: str, lang: str) -> Optional[str]:
     code_pattern = fr"```{lang}\n(.*?)\n```"
@@ -72,19 +73,20 @@ def model_provider(pre_process=True, post_process=True):
     config = core_transformer_config_from_args(get_args())
 
     print_rank_0('building GPT model ...')
-    model = GPTModel(config, num_tokentypes=0, parallel_output=False, pre_process=pre_process, post_process=post_process)
+    model = YuanModel(config, num_tokentypes=0, parallel_output=False, pre_process=pre_process, post_process=post_process)
     return model
 
 
 def add_text_generate_args(parser):
     group = parser.add_argument_group(title='text generation')
-    group.add_argument('--max_len', type=int, default=1024)
-    group.add_argument('--human_eval_datapath', type=str, default='<Specify path>')
-    group.add_argument('--textprompts_datapath', type=str, default='<Specify path>')
+    group.add_argument('--max_len', type=int, default=512)
+    group.add_argument('--model_config_path', type=str, default='<Specify path>')
+    group.add_argument('--human_eval_datapath', type=str, default='./dataset/HUMANEVAL/HumanEval.jsonl.gz')
+    group.add_argument('--textprompts_datapath', type=str, default='./dataset/HUMANEVAL/HumanEval-textprompts.jsonl')
     group.add_argument('--output_path', type=str, default='<Specify path>')
     group.add_argument('--num_samples_per_task', type=int, default=1)
-    group.add_argument('--top_k', type=int, default=0)
-    group.add_argument('--top_p', type=float, default=0.95)
+    group.add_argument('--top_k', type=int, default=1)
+    group.add_argument('--top_p', type=float, default=0)
     group.add_argument('--top_p_decay', type=float, default=0.0)
     group.add_argument('--top_p_bound', type=float, default=0.0)
     group.add_argument('--temp', type=float, default=1)
@@ -116,7 +118,7 @@ class HumanEvalDataset(ABC, Dataset):
 
 def main():
     initialize_megatron(extra_args_provider=add_text_generate_args,
-                        args_defaults={'tokenizer_type': 'YuanTokenizer',
+                        args_defaults={'tokenizer_type': 'LlamaTokenizer',
                                        'no_load_rng': True,
                                        'no_load_optim': True})
 
@@ -127,7 +129,8 @@ def main():
     textprompts_lines = [json.loads(line) for line in textprompts_lines]
 
     dataset = HumanEvalDataset(args.human_eval_datapath)
-    sampler = torch.utils.data.distributed.DistributedSampler(dataset, rank=mpu.get_data_parallel_rank(), num_replicas = mpu.get_data_parallel_world_size(), shuffle=False, drop_last=False)
+    sampler = torch.utils.data.distributed.DistributedSampler(dataset,rank=mpu.get_data_parallel_rank(),num_replicas=mpu.get_data_parallel_world_size(),shuffle=False,drop_last=False)
+
     data_loader = torch.utils.data.DataLoader(dataset,
             batch_size=args.micro_batch_size,
             sampler=sampler,
@@ -159,7 +162,7 @@ def main():
     model.cuda()
     torch.distributed.barrier()
     if torch.distributed.get_rank()==0 and not os.path.exists(args.output_path):
-        os.mkdir(args.output_path)
+        os.mkdirs(args.output_path)
 
     samples = []
     with torch.no_grad():
@@ -202,14 +205,14 @@ def main():
                             prevent_newline_after_colon=args.prevent_newline_after_colon,
                             random_seed=args.random_seed)
                     if mpu.is_pipeline_first_stage() and mpu.get_tensor_model_parallel_rank() == 0:
-
                         if response[0][-5:]=='<eod>':
                             if response[0][0]==' ':
                                 response = [response[0][1:-5]]
                             else:
                                 response = [response[0][0:-5]]
+
                         if new_prompt is not None:
-                            new_sample = [response[0][response[0].find("```python")+9:]]
+                            new_sample = [response[0][response[0].rfind("```python")+9:]]
                         else:
                             new_sample = response
                         print('\n\n')
@@ -264,7 +267,7 @@ def main():
                         if task_id not in total_dict:
                             total_dict[task_id] = [data_dict]
                         else:
-                            if len(total_dict[task_id]) >= args.num_samples_per_task:
+                            if len(total_dict[task_id]) > args.num_samples_per_task:
                                 continue
                             total_dict[task_id].append(data_dict)
             for key in total_dict:
