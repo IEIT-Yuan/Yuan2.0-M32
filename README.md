@@ -59,27 +59,25 @@
 ##  1. Introduction
 
 
-浪潮信息 **“源2.0 M32”大模型（简称，Yuan2.0-M32）** 采用稀疏混合专家架构（MoE），以Yuan2.0-2B模型作为基底模型，通过创新的门控网络（YuanGate）实现32个专家间（Expers*32）的协同工作与任务调度，在显著降低模型推理算力需求的情况下，带来了更强的模型精度表现与推理性能；**★ 任务测评：** **Humaneval、GSM8K等业界领先**，  **★ 推理性能：** **2668 tokens/s，同规模模型性能最好**，**★ 推理成本：** **6.6 GFLOPs / token，相似精度模型成本最低**。**Yuan2.0-M32大模型** 基本信息如下：
+浪潮信息 **“源2.0 M32”大模型（简称，Yuan2.0-M32）** 采用稀疏混合专家架构（MoE），以Yuan2.0-2B模型作为基底模型，通过创新的门控网络（YuanGate）实现32个专家间（Expers*32）的协同工作与任务调度，在显著降低模型推理算力需求的情况下，带来了更强的模型精度表现与推理性能；**★ 任务测评：** **Humaneval、GSM8K等业界领先**，  **★ 推理性能：** **2668 tokens/s，同规模模型性能最好**，**★ 推理成本：** **7.4 GFLOPs / token，相似精度模型成本最低**。**Yuan2.0-M32大模型** 基本信息如下：
 
 
 + **模型参数量：** 40B <br>
 + **专家数量：** 32 <br>
 + **激活专家数：** 2 <br>
 + **激活参数量：** 3.7B <br>  
-+ **训练数据量：** 2481B tokens <br>
-+ **微调数据量：** xxB tokens <br> 
-+ **支持序列长度：** 256K <br>
++ **训练数据量：** 2000B tokens <br>
++ **支持序列长度：** 16K <br>
 
 
 同时，我们发布了Yuan2.0-M32模型的<a href="https://arxiv.org/ftp/arxiv/papers/2311/2311.15786.pdf" target="_blank">**技术报告**</a>，可以通过论文查看更详细的技术细节与测评结果。
 
-![Image text](https://github.com/IEIT-Yuan/Yuan2.0-M32/blob/main/docs/Yuan2.0-M32-Architecture.jpg)
 
-<h4 align="center">
-    <p>
-        <b>Fig.1: Yuan 2.0-M32 架构图</b>
-    <p>
-</h4>
+<div align=center> <img src=https://github.com/IEIT-Yuan/Yuan2.0-M32/blob/main/docs/Yuan2.0-M32-Architecture.jpg width=80% />
+
+Fig.1: Yuan 2.0-M32 架构图
+
+</div>
 
 
 
@@ -89,10 +87,10 @@
 
 |    模型     | 序列长度  |   模型格式   |         下载链接         |
 | :----------: | :------: | :-------: |:---------------------------: |
-| Yuan2.0-M32 |    16K    |    Megatron    | [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2.0-102B-hf/summary) \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-102B-hf) \| [OpenXlab](https://openxlab.org.cn/models/detail/YuanLLM/Yuan2-102B-hf)  \|  [百度网盘](https://pan.baidu.com/s/1O4GkPSTPu5nwHk4v9byt7A?pwd=pq74#list/path=%2F) \| [WiseModel](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-102B-hf)  
-| Yuan2.0-M32-HF |    16K    | HuggingFace    | [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2.0-102B-hf/summary) \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-102B-hf) \| [OpenXlab](https://openxlab.org.cn/models/detail/YuanLLM/Yuan2-102B-hf)  \|  [百度网盘](https://pan.baidu.com/s/1O4GkPSTPu5nwHk4v9byt7A?pwd=pq74#list/path=%2F) \| [WiseModel](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-102B-hf) 
-| Yuan2.0-M32-GGUF |    16K    | GGUF    | [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2.0-102B-hf/summary) \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-102B-hf) \| [OpenXlab](https://openxlab.org.cn/models/detail/YuanLLM/Yuan2-102B-hf)  \|  [百度网盘](https://pan.baidu.com/s/1O4GkPSTPu5nwHk4v9byt7A?pwd=pq74#list/path=%2F) \| [WiseModel](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-102B-hf) 
-| Yuan-2.0-MoE-GGUF-INT4 |    16K    | GGUF    | [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2.0-102B-hf/summary) \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-102B-hf) \| [OpenXlab](https://openxlab.org.cn/models/detail/YuanLLM/Yuan2-102B-hf)  \|  [百度网盘](https://pan.baidu.com/s/1O4GkPSTPu5nwHk4v9byt7A?pwd=pq74#list/path=%2F) \| [WiseModel](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-102B-hf) 
+| Yuan2.0-M32 |    16K    |    Megatron    | [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32/) \| [HuggingFace](https://huggingface.co/IEIT-Yuan/Yuan2-M32)
+| Yuan2.0-M32-HF |    16K    | HuggingFace    | [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-hf) \| [HuggingFace](https://huggingface.co/IEIT-Yuan/Yuan2-M32-hf)
+| Yuan2.0-M32-GGUF |    16K    | GGUF    | [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-gguf) \| [HuggingFace](https://huggingface.co/IEIT-Yuan/Yuan2-M32-gguf)
+| Yuan-2.0-MoE-GGUF-INT4 |    16K    | GGUF    | [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-gguf-int4/) \| [HuggingFace](https://huggingface.co/IEIT-Yuan/Yuan2-M32-gguf-int4/)
 
 
 
@@ -148,11 +146,11 @@ Yuan2.0-MoE模型与多个闭源、开源模型相比，均呈现出较好的精
 Yuan2.0-M32中采用Yuan2.0-2B模型作为Expert，推理时激活2个Expert，激活参数量为3.7B，推理时所使用的激活参数量决定了推理成本，对比其他MoE与Dense模型，计算资源消耗最小，实测数据如下：
 
 
-|     类型    |       MoE 模型      |     MoE 模型    |    Dense模型     |     Dense模型    |
+|     类型    |       MoE 模型      |     MoE 模型    |    MoE 模型      |     Dense模型    |
 | :-------:  |:------------------:|:---------------:|:---------------:|:----------------:|
-| 模型        |   **Yuan2.0-M32**  |   Mistral 8*7B  |    Llama3-8B    |    Llama3-70B  |
-| 参数量      |      408亿          |       467亿     |     80.3亿      |      706亿     |
-| 计算资源    | **6.6 GFLOPs/token** | 21.7 GFLOPs/token | 13.9 GFLOPs/token | 120.2 GFLOPs/token  |
+| 模型        |   **Yuan2.0-M32**  |   Mistral 8*7B  | DeepSeekV2-236B |    Llama3-70B  |
+| 参数量      |      408亿          |       467亿     |     2360亿      |      706亿     |
+| 计算资源     | **7.4 GFLOPs/token** | 25.8 GFLOPs/token | 42 GFLOPs/token | 140 GFLOPs/token  |
 
 -----
 
