@@ -661,7 +661,6 @@ class YuanForCausalLM(nn.Module):
             bsz = attn_metadata.num_decode_tokens
         else:
             bsz = attn_metadata.num_prefills
-        #bsz = 1
         positions = positions.view(bsz, -1)
         hidden_states = self.model(input_ids, positions, kv_caches, lf_caches, attn_metadata)
         return hidden_states 

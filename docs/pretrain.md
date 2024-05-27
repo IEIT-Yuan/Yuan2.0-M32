@@ -2,32 +2,26 @@
 
 ## Introduction
 
-This document provides instructions for pretraining model of Yuan2.0.
+This document provides instructions for pretraining model of Yuan2.0-M32.
 
 Three models are provided, the main parameters are as follows:
 
-|      | Layer number | Hidden size | Attention head |
-| :--: | :----------: | :---------: | :------------: |
-| 2B   |      24      |    2048     |       32       |
-| 51B  |      42      |    8192     |       64       |
-| 102B |      84      |    8192     |       64       |
+|        | Layer number | Hidden size | Attention head | expert num |
+| :--:   | :----------: | :---------: | :------------: | :--------: |
+| 2*32B  |      24      |    2048     |       16       |     32     |
 
 ## Usage
 
 The  scripts describe three models in Yuan2.0:
 
-- 2B : [`pretrain_yuan2.0_2.1B.sh`](../examples/pretrain_yuan2.0_2.1B.sh)
-
-- 51B : [`pretrain_yuan2.0_51B.sh`](../examples/pretrain_yuan2.0_51B.sh)
-
-- 102B : [`pretrain_yuan2.0_102B.sh`](../examples/pretrain_yuan2.0_102B.sh)
+- 2B : [`pretrain_yuan2.0_moe_2x32B.sh`](../examples/pretrain_yuan2.0_moe_2x32B.sh)
 
 ### Example
 
-An example script to run Yuan-2.1B pretraining is:
+An example script to run Yuan-2.1B-M32 pretraining is:
 
 ```shell
-bash examples/pretrain_yuan2.0_2.1B.sh
+bash examples/pretrain_yuan2.0_moe_2x32B.sh
 ```
 
 ### Arguments setting

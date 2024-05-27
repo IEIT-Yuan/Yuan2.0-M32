@@ -166,20 +166,27 @@ Yuan2.0-M32中采用Yuan2.0-2B模型作为Expert，推理时激活2个Expert，�
 
 **4.1  环境配置**
 
+我们建议使用yuan2.0-M32的最新docker[镜像文件](https://hub.docker.com/r/yuanmodel/yuan2.0:m32).
+
+我们可以通过下面命令启动容器：
+
+```bash
+docker pull yuanmodel/yuan2.0:V1-base
+docker run --gpus all --privileged --ulimit stack=68719476736 --shm-size=1000G -itd -v /path/to/yuan_2.0:/workspace/yuan_2.0 -v /path/to/dataset:/workspace/dataset -v /path/to/checkpoints:/workspace/checkpoints --name your_name yuanmodel/yuan2.0:V1-base
+docker exec -it your_name bash
 
 
 **4.2  数据预处理**
 
-
+我们提供了数据预处理的脚本，参考[数据预处理说明文档](./docs/data_process.md).
 
 **4.3  模型预训练**
 
-
+我们提供了用于预训练的文档和 [`example`](./examples)的脚本，具体使用方法可以参考[预训练说明文档](./docs/pretrain.md).
 
 **4.4  推理服务**
 
-详细部署方案可以参考[vllm](https://github.com/IEIT-Yuan/Yuan2.0-M32/edit/main/vllm/README_Yuan_vllm.md)
-
+-详细部署方案可以参考[vllm](https://github.com/IEIT-Yuan/Yuan2.0-M32/edit/main/vllm/README_Yuan_vllm.md)
 
 
 ##  5. Statement of Agreement
