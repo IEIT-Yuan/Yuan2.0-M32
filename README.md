@@ -25,7 +25,7 @@
 
 
 <p align="center">
-👾 <a href="https://www.modelscope.cn/profile/YuanLLM" target="_blank">ModelScope</a> • 🤗 <a href="https://huggingface.co/IEITYuan" target="_blank">Hugging Face</a> •  💬 <a href="https://github.com/IEIT-Yuan/Yuan-2.0/blob/main/images/%E6%BA%90%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.png" target="_blank">WeChat</a>• 📎  <a href="https://arxiv.org/ftp/arxiv/papers/2311/2311.15786.pdf" target="_blank">源2.0MoE论文</a>
+👾 <a href="https://www.modelscope.cn/profile/YuanLLM" target="_blank">ModelScope</a> • 🤗 <a href="https://huggingface.co/IEITYuan" target="_blank">Hugging Face</a> •  💬 <a href="https://github.com/IEIT-Yuan/Yuan-2.0/blob/main/images/%E6%BA%90%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.png" target="_blank">WeChat</a>• 📎  <a href="https://arxiv.org/ftp/arxiv/papers/2311/2311.15786.pdf" target="_blank">源2.0 M32论文</a>
 </p>
 
 
@@ -87,7 +87,7 @@ Fig.1: Yuan 2.0-M32 架构图
 **3.1 Benchmarks 测试** 🏆
 
 
-Yuan2.0-MoE模型与多个闭源、开源模型相比，均呈现出较好的精度表现。我们评测的数据集包括：Humaneval、GSM8K、MMLU、Math、ARC-Challenge，用于考察模型在自然语言理解、知识、数学计算和推理、代码生成等任务上的能力。Yuan2.0-MoE模型在所有测评任务上全面超越了Llama3-8B、Mistral-8*7B等模型，综合能力表现可以对标 Llama3-70B模型。
+Yuan2.0-M32 模型与多个闭源、开源模型相比，均呈现出较好的精度表现。我们评测的数据集包括：Humaneval、GSM8K、MMLU、Math、ARC-Challenge，用于考察模型在自然语言理解、知识、数学计算和推理、代码生成等任务上的能力。Yuan2.0-M32模型在所有测评任务上全面超越了Llama3-8B、Mistral-8*7B等模型，综合能力表现可以对标 Llama3-70B模型。
 
 
 
