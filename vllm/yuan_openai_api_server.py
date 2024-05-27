@@ -7,7 +7,7 @@ with open('/mnt/Yuan2.0-M32/vllm/humaneval/human-eval-gpt4-translation-fixed5.js
         data = json.loads(line)
         prompt = data.get('prompt')
         raw_json_data = {
-                "model": "/mnt/beegfs2/Yuan2.0-M32-HF/",
+                "model": "/mnt/beegfs2/Yuan2-M32-HF/",
                 "prompt": prompt,
                 "max_tokens": 256,
                 "temperature": 1,
