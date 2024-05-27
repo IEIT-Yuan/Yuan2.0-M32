@@ -173,7 +173,8 @@ Yuan2.0-M32中采用Yuan2.0-2B模型作为Expert，推理时激活2个Expert，�
 ```bash
 docker pull yuanmodel/yuan2.0:V1-base
 docker run --gpus all --privileged --ulimit stack=68719476736 --shm-size=1000G -itd -v /path/to/yuan_2.0:/workspace/yuan_2.0 -v /path/to/dataset:/workspace/dataset -v /path/to/checkpoints:/workspace/checkpoints --name your_name yuanmodel/yuan2.0:V1-base
-docker exec -it your_name bash```
+docker exec -it your_name bash
+```
 
 
 **4.2  数据预处理**
