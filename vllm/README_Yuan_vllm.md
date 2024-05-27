@@ -1,4 +1,4 @@
-# 基于vLLM的Yuan2.0-M32-HF推理服务部署
+# 基于vLLM的Yuan2-M32-HF推理服务部署
 
 ## 配置vLLM环境
 vLLM环境配置主要分为以下两步，拉取我们提供的镜像创建docker，以及安装vllm运行环境
@@ -10,7 +10,7 @@ docker pull yuanmodel/vllm-v0.4.0:latest
 
 # 创建容器, 可以用"-v"挂载至你的本地目录（此处挂载了mnt路径）
 docker run --gpus all -itd --network=host  -v /mnt:/mnt --cap-add=IPC_LOCK --device=/devinfiniband --privileged 
---name vllm_yuan --ulimit core=0 --ulimit memlock=1 --ulimit stack=68719476736 --shm-size=1000G vllm:v0.4.0
+--name vllm_yuan --ulimit core=0 --ulimit memlock=1 --ulimit stack=68719476736 --shm-size=1000G vllm-v0.4.0:latest
 
 # 进入容器
 docker exec -it vllm_yuan bash
@@ -34,15 +34,15 @@ CUDA_HOME=/usr/local/cuda MAX_JOBS=64 NVCC_THREADS=8 python setup.py install
 cp build/lib.linux-x86_64-3.10/vllm/*.so vllm/
 ```
 
-## Yuan2.0-M32-HF模型基于vLLM的推理和部署
+## Yuan2-M32-HF模型基于vLLM的推理和部署
 
 以下是如何使用vLLM推理框架对Yuan2.0-2Bx32模型进行推理和部署的示例
 
-### Step 1. 准备Yuan2.0-M32的hf模型
-下载Yuan2.0-M32-HF hugging face模型，参考地址：https://huggingface.co/IEITYuan/Yuan2.0-M32-HF
+### Step 1. 准备Yuan2-M32的hf模型
+下载Yuan2-M32-HF hugging face模型，参考地址：https://huggingface.co/IEIT-Yuan/Yuan2-M32-hf
 
-将下载好的Yuan2.0-M32-HF模型的ckpt移动至你的本地目录下(本案例中的路径如下：/mnt/beegfs2/)
-### Step 2. 基于Yuan2.0-M32-HF的vllm推理
+将下载好的Yuan2-M32-HF模型的ckpt移动至你的本地目录下(本案例中的路径如下：/mnt/beegfs2/)
+### Step 2. 基于Yuan2-M32-HF的vllm推理
 #### Option1:单个prompt推理
 ```bash
 # 编辑test_yuan_1prompt.py
@@ -55,7 +55,7 @@ vim yuan_inference.py
 prompts = ["写一篇春游作文"]
 sampling_params = SamplingParams(max_tokens=300, temperature=1, top_p=0, top_k=1, min_p=0.0, length_penalty=1.0, repetition_penalty=1.0, stop="<eod>", )
 
-llm = LLM(model="/mnt/beegfs2/Yuan2.0-M32-HF/", trust_remote_code=True, tensor_parallel_size=8, gpu_memory_utilization=0.8, disable_custom_all_reduce=True, max_num_seqs=64)
+llm = LLM(model="/mnt/beegfs2/Yuan2-M32-HF/", trust_remote_code=True, tensor_parallel_size=8, gpu_memory_utilization=0.8, disable_custom_all_reduce=True, max_num_seqs=64)
 '''
 # 注意：如用多个prompt进行推理时，可能由于补padding的操作，和用单个prompt推理时结果不一样
 ```
@@ -70,11 +70,11 @@ llm = LLM(model="/mnt/beegfs2/Yuan2.0-M32-HF/", trust_remote_code=True, tensor_p
 -disable-custom-all-reduce:禁用自定义的all-reduce内核，并回退到NCCL
 
 
-### Step 3. 基于vllm.entrypoints.api_server部署Yuan2.0-M32-HF
-基于api_server部署Yuan2.0-M32-HF的步骤包括推理服务的发起和调用。其中调用vllm.entrypoints.api_server推理服务有以下两种方式：第一种是通过命令行直接调用；第二种方式是通过运行脚本批量调用。
+### Step 3. 基于vllm.entrypoints.api_server部署Yuan2-M32-HF
+基于api_server部署Yuan2-M32-HF的步骤包括推理服务的发起和调用。其中调用vllm.entrypoints.api_server推理服务有以下两种方式：第一种是通过命令行直接调用；第二种方式是通过运行脚本批量调用。
 ```bash
 # 发起服务，--model修改为您的ckpt路径
-python -m vllm.entrypoints.api_server --model=/mnt/beegfs2/Yuan2.0-M32-HF/ --trust-remote-code --disable-custom-all-reduce --tensor-parallel-size=8 --max-num-seqs=1 --gpu-memory-utilization=0.8
+python -m vllm.entrypoints.api_server --model=/mnt/beegfs2/Yuan2-M32-HF/ --trust-remote-code --disable-custom-all-reduce --tensor-parallel-size=8 --max-num-seqs=1 --gpu-memory-utilization=0.8
 
 # 发起服务后，服务端显示如下：
 INFO 05-16 19:55:04 ray_gpu_executor.py:228] # GPU blocks: 8073, # CPU blocks: 682
@@ -149,11 +149,11 @@ INFO 05-17 09:23:58 async_llm_engine.py:508] Received request 52d849c4be704318af
 INFO 05-17 09:24:02 async_llm_engine.py:120] Finished request 52d849c4be704318af0181eab1d414b8.
 INFO:     ::1:39948 - "POST /generate HTTP/1.1" 200 OK
 ```
-### Step 4. 基于vllm.entrypoints.openai.api_server部署Yuan2.0-M32-HF
+### Step 4. 基于vllm.entrypoints.openai.api_server部署Yuan2-M32-HF
 注意：openai.api_server调用tokenizer方式有所不同，在使用此服务时，先将tokenizer_config.json中的add_eos_token和add_bos_token设置为false
 ```bash
 # 修改tokenizer_config.json文件
-vim /mnt/beegfs2/Yuan2.0-M32-HF/tokenizer_config.json
+vim /mnt/beegfs2/Yuan2-M32-HF/tokenizer_config.json
 # 以下内容修改为false即可
 "add_bos_token": false,
 "add_eos_token": false,
@@ -163,7 +163,7 @@ vim /mnt/beegfs2/Yuan2.0-M32-HF/tokenizer_config.json
 发起服务命令：
 ```bash
 # 发起服务，--model修改为您的ckpt路径
-python -m vllm.entrypoints.openai.api_server --model=/mnt/beegfs2/Yuan2.0-M32-HF/ --trust-remote-code --disable-custom-all-reduce --tensor-parallel-size=8 --max-num-seqs=1 --gpu-memory-utilization=0.8
+python -m vllm.entrypoints.openai.api_server --model=/mnt/beegfs2/Yuan2-M32-HF/ --trust-remote-code --disable-custom-all-reduce --tensor-parallel-size=8 --max-num-seqs=1 --gpu-memory-utilization=0.8
 
 # 发起服务后，服务端显示如下：
 INFO 05-17 09:38:43 ray_gpu_executor.py:228] # GPU blocks: 8073, # CPU blocks: 682
@@ -184,7 +184,7 @@ INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
 调用服务命令：
 ```bash
 # 使用curl命令行调用服务的指令如下
-curl http://localhost:8000/v1/completions -H "Content-Type: application/json" -d '{"model": "/mnt/beegfs2/Yuan2.0-M32-HF/", "prompt": "写一篇春游作文", "max_tokens": 300, "temperature": 1, "top_p": 0, "top_k": 1, "stop": "<eod>"}'
+curl http://localhost:8000/v1/completions -H "Content-Type: application/json" -d '{"model": "/mnt/beegfs2/Yuan2-M32-HF/", "prompt": "写一篇春游作文", "max_tokens": 300, "temperature": 1, "top_p": 0, "top_k": 1, "stop": "<eod>"}'
 ```
 调用服务脚本如下：
 ```bash
@@ -197,7 +197,7 @@ with open('/mnt/Yuan2.0-M32/vllm/humaneval/human-eval-gpt4-translation-fixed5.js
         data = json.loads(line)
         prompt = data.get('prompt')
         raw_json_data = {
-                "model": "/mnt/beegfs2/Yuan2.0-M32-HF/",
+                "model": "/mnt/beegfs2/Yuan2-M32-HF/",
                 "prompt": prompt,
                 "max_tokens": 256,
                 "temperature": 1,
