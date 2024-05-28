@@ -28,7 +28,7 @@
 <h4 align="center">
     <p>
         <b>English</b> |
-        <a href="./README.md">简体中文</a>
+        <a href="./README_CN.md">简体中文</a>
     <p>
 </h4>
 
