@@ -75,8 +75,8 @@ Fig.1: Yuan 2.0-M32 架构图
 | :----------: | :------: | :-------: |:---------------------------: |
 | Yuan2.0-M32 |    16K    |    Megatron    | [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32/) \| [HuggingFace](https://huggingface.co/IEIT-Yuan/Yuan2-M32) \| [百度网盘](https://pan.baidu.com/s/1K0LVU5NxeEujtYczF_T-Rg?pwd=cupw)
 | Yuan2.0-M32-HF |    16K    | HuggingFace    | [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-hf) \| [HuggingFace](https://huggingface.co/IEIT-Yuan/Yuan2-M32-hf) \| [百度网盘](https://pan.baidu.com/s/1FrbVKji7IrhpwABYSIsV-A?pwd=q6uh)
-| Yuan2.0-M32-GGUF |    16K    | GGUF    | [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-gguf) \| [HuggingFace](https://huggingface.co/IEIT-Yuan/Yuan2-M32-gguf) \| [百度网盘](https://pan.baidu.com/s/1BWQaz-jeZ1Fe69CqYtjS9A?pwd=f4qc)
-| Yuan2.0-M32-GGUF-INT4 |    16K    | GGUF    | [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-gguf-int4/) \| [HuggingFace](https://huggingface.co/IEIT-Yuan/Yuan2-M32-gguf-int4/) \| [百度网盘](https://pan.baidu.com/s/1FM8xPpkhOrRcAfe7-zUgWQ?pwd=e6ag)
+| Yuan2.0-M32-GGUF |    16K    | GGUF     |    [百度网盘](https://pan.baidu.com/s/1BWQaz-jeZ1Fe69CqYtjS9A?pwd=f4qc)
+| Yuan2.0-M32-GGUF-INT4 |    16K    | GGUF  |   [百度网盘](https://pan.baidu.com/s/1FM8xPpkhOrRcAfe7-zUgWQ?pwd=e6ag)
 
 
 
