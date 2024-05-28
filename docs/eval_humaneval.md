@@ -83,7 +83,7 @@ Evaluate MOE model on HumanEval dataset.
 
 ```纯文本
 cd <Specify Path>/Yuan2.0-M32/
-bash examples/eval_humaneval.sh
+bash examples/eval_humaneval_2x32.sh
 ```
 
 ### Results
