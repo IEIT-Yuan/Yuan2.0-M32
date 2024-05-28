@@ -71,7 +71,7 @@ Fig.1: Yuan 2.0-M32 Architecture
 ##  2. Model Downloads
 
 
-|    Model     | Sequence Length  |   Type   |         下载链接         |
+|    Model     | Sequence Length  |   Type   |         Download         |
 | :----------: | :------: | :-------: |:---------------------------: |
 | Yuan2.0-M32 |    16K    |    Megatron    | [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32/) \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32) \| [Netdisk](https://pan.baidu.com/s/1K0LVU5NxeEujtYczF_T-Rg?pwd=cupw)
 | Yuan2.0-M32-HF |    16K    | HuggingFace    | [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-hf) \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-hf) \| [Netdisk](https://pan.baidu.com/s/1FrbVKji7IrhpwABYSIsV-A?pwd=q6uh)
