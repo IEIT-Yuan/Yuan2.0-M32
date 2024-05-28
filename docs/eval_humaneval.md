@@ -14,9 +14,9 @@
 
 ### Introduction
 
-**examples/eval\_humaneval.sh.** The evaluation results for HumanEval on MOE model could be obtained by running this program.
+**examples/eval\_humaneval.sh.** The evaluation results for HumanEval on Yuan2.0-M32 model could be obtained by running this program.
 
-Before running the evaluation program, you only have to specify the following checkpoint\_path in bash script by yourself, the other necessary paths are already set up.&#x20;
+Before running the evaluation program, you have to specify the following checkpoint\_path in bash script by yourself.&#x20;
 
 | Variable name     | Description                                         |
 | ----------------- | --------------------------------------------------- |
@@ -24,7 +24,7 @@ Before running the evaluation program, you only have to specify the following ch
 
 ### Requirement
 
-Make sure HumanEval program is installed befere running the HumanEval evaluation on Yuan2.0 checkpoint.&#x20;
+Make sure HumanEval program is installed befere running the HumanEval evaluation on Yuan2.0-M32 checkpoint.&#x20;
 
 ```text
 $ git clone https://github.com/openai/human-eval
@@ -75,7 +75,7 @@ Also, if you are new to HumanEval, you have to delete the extra "#" in "check\_p
 
 ### Usage
 
-Run the following commands to evaluate the MOE model's performance on HumanEval dataset. Before running the bash script, you shall change directory to main directory of 'Yuan2.0-M32', and you have to specify the the checkpoit path where you store the checkpoint in the bash script.
+Run the following commands to evaluate the Yuan2.0-M32 model's performance on HumanEval dataset. Before running the bash script, you shall change directory to main directory of 'Yuan2.0-M32', and you have to specify the the checkpoit path where you store the checkpoint in the bash script.
 
 
 
