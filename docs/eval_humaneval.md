@@ -82,7 +82,7 @@ Run the following commands to evaluate the MOE model's performance on HumanEval 
 Evaluate MOE model on HumanEval dataset.
 
 ```纯文本
-cd <Specify Path>/Yuan-2.0/
+cd <Specify Path>/Yuan2.0-M32/
 bash examples/eval_humaneval.sh
 ```
 
