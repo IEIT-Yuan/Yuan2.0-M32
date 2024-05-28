@@ -1,4 +1,4 @@
-# eval\_humaneval\_MOE中文
+# eval\_humaneval\_cn
 
 ## 评测数据集
 
