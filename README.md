@@ -6,11 +6,14 @@
 </div>
 
 
+<p align="center">
+👾 <a href="https://www.modelscope.cn/profile/YuanLLM" target="_blank">ModelScope</a> • 🤗 <a href="https://huggingface.co/IEITYuan" target="_blank">Hugging Face</a> •  💬 <a href="https://github.com/IEIT-Yuan/Yuan-2.0/blob/main/images/%E6%BA%90%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.png" target="_blank">WeChat</a>• 📎  <a href="https://github.com/IEIT-Yuan/Yuan2.0-M32/blob/main/docs/Paper.pdf" target="_blank">源2.0 M32论文</a>
+</p>
+
+
+
 <div align="center">
 
-  <a href="https://airyuan.cn/home" target="_blank">
-    <img alt="Homepage" src="https://img.shields.io/badge/Yuan%202.0-red?style=flat&logoColor=css&label=HomePage&labelColor=rgb&link=https%3A%2F%2Fairyuan.cn%2Fhome" />
-  </a>
     
   <a href="code_license">
     <img alt="Code License" src="https://img.shields.io/badge/Apache%202.0%20-green?style=flat&label=Code%20License&link=https%3A%2F%2Fgithub.com%2FIEIT-Yuan%2FYuan-2.0-MoE%3Ftab%3DApache-2.0-1-ov-file"/>
@@ -24,9 +27,6 @@
 
 
 
-<p align="center">
-👾 <a href="https://www.modelscope.cn/profile/YuanLLM" target="_blank">ModelScope</a> • 🤗 <a href="https://huggingface.co/IEITYuan" target="_blank">Hugging Face</a> •  💬 <a href="https://github.com/IEIT-Yuan/Yuan-2.0/blob/main/images/%E6%BA%90%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.png" target="_blank">WeChat</a>• 📎  <a href="https://github.com/IEIT-Yuan/Yuan2.0-M32/blob/main/docs/Yuan%202.0-M32-%20Mixture%20of%20Experts%20with%20Attention%20Router.pdf" target="_blank">源2.0 M32论文</a>
-</p>
 
 
 
@@ -56,7 +56,7 @@
 + **支持序列长度：** 16K <br>
 
 
-同时，我们发布了Yuan2.0-M32模型的<a href="https://github.com/IEIT-Yuan/Yuan2.0-M32/blob/main/docs/Yuan%202.0-M32-%20Mixture%20of%20Experts%20with%20Attention%20Router.pdf" target="_blank">**技术报告**</a>，可以通过论文查看更详细的技术细节与测评结果。
+同时，我们发布了Yuan2.0-M32模型的<a href="https://github.com/IEIT-Yuan/Yuan2.0-M32/blob/main/docs/Paper.pdf" target="_blank">**技术报告**</a>，可以通过论文查看更详细的技术细节与测评结果。
 
 
 <div align=center> <img src=https://github.com/IEIT-Yuan/Yuan2.0-M32/blob/main/docs/Yuan2.0-M32-Architecture.jpg width=80% />
