@@ -128,13 +128,13 @@ Yuan2.0-M32 模型与多个闭源、开源模型相比，均呈现出较好的�
 
 **4.1  环境配置**
 
-我们建议使用yuan2.0-M32的最新docker[镜像文件](https://hub.docker.com/r/yuanmodel/yuan2.0:m32).
+我们建议使用yuan2.0-M32的最新docker.
 
 我们可以通过下面命令启动容器：
 
 ```bash
-docker pull yuanmodel/yuan2.0:V1-base
-docker run --gpus all --privileged --ulimit stack=68719476736 --shm-size=1000G -itd -v /path/to/yuan_2.0:/workspace/yuan_2.0 -v /path/to/dataset:/workspace/dataset -v /path/to/checkpoints:/workspace/checkpoints --name your_name yuanmodel/yuan2.0:V1-base
+docker pull yuanmodel/yuan2.0:m32
+docker run --gpus all --privileged --ulimit stack=68719476736 --shm-size=1000G -itd -v /path/to/yuan_2.0:/workspace/yuan_2.0 -v /path/to/dataset:/workspace/dataset -v /path/to/checkpoints:/workspace/checkpoints --name your_name yuanmodel/yuan2.0:m32
 docker exec -it your_name bash
 ```
 
