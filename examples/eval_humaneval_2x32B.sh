@@ -39,7 +39,7 @@ TOKENIZER_MODEL_PATH=<Specify path to file>
 CHECKPOINT_PATH=<Specify CHECKPOINT_PATH>
 LOG_PATH=./logs/${CASE_NAME}
 OUTPUT_PATH=./output/${CASE_NAME}
-PROMPT=HumanEval-instructions-fewshot.jsonl
+PROMPT=HumanEval-instructions.jsonl
 MAX_LENGTH=1024
 
 mkdir -p $LOG_PATH
