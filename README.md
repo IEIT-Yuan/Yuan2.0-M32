@@ -116,7 +116,7 @@ We conducted a thorough evaluation of the Yuan2.0-M32 model across a range of be
 | Llama3-70B         |         70         |     70         |       140      |       420      |      79.25       |       0.57     |
 | Llama3-8B          |         8          |     8          |       16       |       48       |      64.15      |       4.00     |
 | Mistral-8*22B      |         141        |     39         |       78       |       234      |      72.38      |       0.93     |
-| Mistral-8*7B       |         47         |    129         |       25.8     |       77.3     |      60.83      |       2.36     |
+| Mistral-8*7B       |         47         |    12.9         |       25.8     |       77.3     |      60.83      |       2.36     |
 | **Yuan2.0-M32**    |         40         |     3.7        |       7.4      |       22.2     |      79.15       |       10.69    |
 
 
