@@ -6,9 +6,9 @@
 
 **datasets/HUMANEVAL/HumanEval-textprompts.jsonl** The Chinese version of the HumanEval dataset obtained by translation with the aid of gpt-4 model.
 
-**datasets/HUMANEVAL/HumanEval-ins.jsonl** The HumanEval dataset in instruction style.
+**datasets/HUMANEVAL/HumanEval-instructions.jsonl** The HumanEval dataset in instruction style.
 
-**datasets/HUMANEVAL/HumanEval-ins-fewshot.jsonl** The HumanEval dataset in instruction style with few-shot prompt.
+**datasets/HUMANEVAL/HumanEval-instructions-fewshot.jsonl** The HumanEval dataset in instruction style with few-shot prompt.
 
 ## Evaluation
 
