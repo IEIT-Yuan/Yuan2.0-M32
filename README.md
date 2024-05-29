@@ -7,7 +7,7 @@
 
 
 <p align="center">
-👾 <a href="https://www.modelscope.cn/profile/YuanLLM" target="_blank">ModelScope</a> • 🤗 <a href="https://huggingface.co/IEITYuan" target="_blank">Hugging Face</a> •  💬 <a href="https://github.com/IEIT-Yuan/Yuan-2.0/blob/main/images/%E6%BA%90%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.png" target="_blank">WeChat</a>• 📎  <a href="https://github.com/IEIT-Yuan/Yuan2.0-M32/blob/main/docs/Paper.pdf" target="_blank">Yuan2.0-M32 Paper</a>
+👾 <a href="https://www.modelscope.cn/profile/YuanLLM" target="_blank">ModelScope</a> • 🤗 <a href="https://huggingface.co/IEITYuan" target="_blank">Hugging Face</a> •  💬 <a href="https://github.com/IEIT-Yuan/Yuan-2.0/blob/main/images/%E6%BA%90%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.png" target="_blank">WeChat</a>• 📎  <a href="https://arxiv.org/abs/2405.17976" target="_blank">Yuan2.0-M32 Paper</a>
 </p>
 
 
@@ -56,7 +56,7 @@
 + **Training Tokens：** 2000B tokens <br>
 + **Sequence Length：** 16K <br>
 
-The technical report for the Yuan2.0-M32 model has been released, and you can find more detailed technical information and evaluation results by referring to the <a href="https://github.com/IEIT-Yuan/Yuan2.0-M32/blob/main/docs/Paper.pdf" target="_blank">**paper**</a>.
+The technical report for the Yuan2.0-M32 model has been released, and you can find more detailed technical information and evaluation results by referring to the <a href="https://arxiv.org/abs/2405.17976" target="_blank">**paper**</a>.
 
 
 
@@ -74,9 +74,9 @@ Fig.1: Yuan 2.0-M32 Architecture
 |    Model     | Sequence Length  |   Type   |         Download         |
 | :----------: | :------: | :-------: |:---------------------------: |
 | Yuan2.0-M32 |    16K    |    Megatron    | [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32/) \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32) \| [Netdisk](https://pan.baidu.com/s/1K0LVU5NxeEujtYczF_T-Rg?pwd=cupw)
-| Yuan2.0-M32-HF |    16K    | HuggingFace    | [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-hf) \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-hf) \| [Netdisk](https://pan.baidu.com/s/1FrbVKji7IrhpwABYSIsV-A?pwd=q6uh)
-| Yuan2.0-M32-GGUF |    16K    | GGUF     |    [Netdisk](https://pan.baidu.com/s/1BWQaz-jeZ1Fe69CqYtjS9A?pwd=f4qc)
-| Yuan2.0-M32-GGUF-INT4 |    16K    | GGUF  |   [Netdisk](https://pan.baidu.com/s/1FM8xPpkhOrRcAfe7-zUgWQ?pwd=e6ag)
+| Yuan2.0-M32-HF |    16K    | HuggingFace    |    [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-hf) \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-hf) \| [Netdisk](https://pan.baidu.com/s/1FrbVKji7IrhpwABYSIsV-A?pwd=q6uh)
+| Yuan2.0-M32-GGUF |    16K    | GGUF         |    [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-gguf/summary)  \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-gguf) \| [Netdisk](https://pan.baidu.com/s/1BWQaz-jeZ1Fe69CqYtjS9A?pwd=f4qc)
+| Yuan2.0-M32-GGUF-INT4 |    16K    | GGUF    |    [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-gguf-int4/summary)  \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-gguf-int4) \| [Netdisk](https://pan.baidu.com/s/1FM8xPpkhOrRcAfe7-zUgWQ?pwd=e6ag)
 
 
 
