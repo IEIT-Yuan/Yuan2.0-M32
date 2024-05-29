@@ -7,7 +7,7 @@
 
 
 <p align="center">
-👾 <a href="https://www.modelscope.cn/profile/YuanLLM" target="_blank">ModelScope</a> • 🤗 <a href="https://huggingface.co/IEITYuan" target="_blank">Hugging Face</a> •  💬 <a href="https://github.com/IEIT-Yuan/Yuan-2.0/blob/main/images/%E6%BA%90%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.png" target="_blank">WeChat</a>• 📎  <a href="https://arxiv.org/abs/2405.17976" target="_blank">Yuan2.0-M32 Paper</a>
+👾 <a href="https://www.modelscope.cn/profile/YuanLLM" target="_blank">ModelScope</a> • 🤗 <a href="https://huggingface.co/IEITYuan" target="_blank">Hugging Face</a> •  💬 <a href="https://github.com/IEIT-Yuan/Yuan-2.0/blob/main/images/%E6%BA%90%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.png" target="_blank">WeChat</a>• 📎  <a href="./docs/Paper.pdf" target="_blank">Yuan2.0-M32 Paper</a>
 </p>
 
 
@@ -56,7 +56,7 @@
 + **Pretrained Tokens：** 2000B tokens <br>
 + **Sequence Length：** 16K <br>
 
-The technical report for the Yuan2.0-M32 model has been released, and you can find more detailed technical information and evaluation results by referring to the <a href="https://arxiv.org/abs/2405.17976" target="_blank">**paper**</a>.
+The technical report for the Yuan2.0-M32 model has been released, and you can find more detailed technical information and evaluation results by referring to the <a href="./docs/Paper.pdf" target="_blank">**paper**</a>.
 
 
 
@@ -88,6 +88,9 @@ Fig.1: Yuan 2.0-M32 Architecture
 
 
 We conducted a thorough evaluation of the Yuan2.0-M32 model across a range of benchmarks, including HumanEval, GSM8K, MMLU, Math, and ARC-Challenge. These benchmarks are designed to test the model's proficiency in key areas such as natural language understanding, knowledge acquisition, mathematical computation and reasoning, and code generation. The Yuan2.0-M32 has shown a consistent and significant advantage over other models like Llama3-8B and Mistral-8×7B, excelling in all evaluated tasks. Remarkably, its overall performance is on par with the more substantial Llama3-70B model.The detailed evaluation results are outlined in the subsequent table.
+
+- We provided evaluation scripts for [**HumanEval**](./docs/eval_humaneval.md), [**GSM8K**](./docs/eval_gsm8k.md), [**MMLU**](./docs/eval_mmlu.md), [**Math**](./docs/eval_math.md) and [**ARC-C**](./docs/eval_arc.md) to support the replication of our evaluation results.
+
 
 
 
