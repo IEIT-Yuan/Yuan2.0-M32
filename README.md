@@ -53,7 +53,7 @@
 + **Experts：** 32 <br>
 + **Active Experts：** 2 <br>
 + **Active Parameters：** 3.7B <br>  
-+ **Training Tokens：** 2000B tokens <br>
++ **Pretrained Tokens：** 2000B tokens <br>
 + **Sequence Length：** 16K <br>
 
 The technical report for the Yuan2.0-M32 model has been released, and you can find more detailed technical information and evaluation results by referring to the <a href="https://arxiv.org/abs/2405.17976" target="_blank">**paper**</a>.
