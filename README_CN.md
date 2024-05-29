@@ -7,7 +7,7 @@
 
 
 <p align="center">
-👾 <a href="https://www.modelscope.cn/profile/YuanLLM" target="_blank">ModelScope</a> • 🤗 <a href="https://huggingface.co/IEITYuan" target="_blank">Hugging Face</a> •  💬 <a href="https://github.com/IEIT-Yuan/Yuan-2.0/blob/main/images/%E6%BA%90%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.png" target="_blank">WeChat</a>• 📎  <a href="https://arxiv.org/abs/2405.17976" target="_blank">源2.0 M32论文</a>
+👾 <a href="https://www.modelscope.cn/profile/YuanLLM" target="_blank">ModelScope</a> • 🤗 <a href="https://huggingface.co/IEITYuan" target="_blank">Hugging Face</a> •  💬 <a href="https://github.com/IEIT-Yuan/Yuan-2.0/blob/main/images/%E6%BA%90%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.png" target="_blank">WeChat</a>• 📎  <a href="./docs/Paper.pdf" target="_blank">源2.0 M32论文</a>
 </p>
 
 
@@ -23,11 +23,6 @@
   </a>
 
 </div>
-
-
-
-
-
 
 
 
@@ -56,7 +51,7 @@
 + **支持序列长度：** 16K <br>
 
 
-同时，我们发布了Yuan2.0-M32模型的<a href="https://arxiv.org/abs/2405.17976" target="_blank">**技术报告**</a>，可以通过论文查看更详细的技术细节与测评结果。
+同时，我们发布了Yuan2.0-M32模型的<a href="./docs/Paper.pdf" target="_blank">**技术报告**</a>，可以通过论文查看更详细的技术细节与测评结果。
 
 
 <div align=center> <img src=https://github.com/IEIT-Yuan/Yuan2.0-M32/blob/main/docs/Yuan2.0-M32-Architecture.jpg width=80% />
@@ -88,6 +83,9 @@ Fig.1: Yuan 2.0-M32 架构图
 
 
 Yuan2.0-M32 模型与多个闭源、开源模型相比，均呈现出较好的精度表现。我们评测的数据集包括：Humaneval、GSM8K、MMLU、Math、ARC-Challenge，用于考察模型在自然语言理解、知识、数学计算和推理、代码生成等任务上的能力。Yuan2.0-M32模型在所有测评任务上全面超越了Llama3-8B、Mistral-8*7B等模型，综合能力表现可以对标 Llama3-70B模型。
+
+我们提供了[**HumanEval**](./docs/eval_humaneval_cn.md) 、[**GSM8K**](./docs/eval_gsm8k_cn.md) 、[**MMLU**](./docs/eval_mmlu_cn.md)、[**Math**](./docs/eval_math_cn.md)、[**ARC-C**](./docs/eval_arc_cn.md) 的评估脚本，以方便大家复现我们的评测结果。
+
 
 
 
@@ -145,7 +143,7 @@ docker exec -it your_name bash
 
 **4.3  模型预训练**
 
-我们提供了用于预训练的文档和 [`example`](./examples)的脚本，具体使用方法可以参考[预训练说明文档](./docs/pretrain.md).
+我们提供了用于预训练的文档和 [example](./examples)的脚本，具体使用方法可以参考[预训练说明文档](./docs/pretrain.md).
 
 **4.4  推理服务**
 
