@@ -61,7 +61,7 @@ class EvalDataset(ABC, Dataset):
             for ii, line in enumerate(lines):
                 line = line.strip()
                 index = line.find('[SEP]')
-                prompt = ''
+                prompt = 'Choose the correct answer from the options after each question.<n>'
                 line = prompt + line[:index] + '<sep>'
                 line = line.replace('<n>', '\n')
                 self.problems.append(line)
