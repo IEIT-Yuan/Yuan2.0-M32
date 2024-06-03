@@ -154,7 +154,7 @@ We've provided several scripts for pretraining in the [`example`](./examples). T
 
 
 
-For a detailed deployment plan, please refer to [vllm](https://github.com/IEIT-Yuan/Yuan2.0-M32/edit/main/vllm/README_Yuan_vllm.md).
+For a detailed deployment plan, please refer to [vllm](https://github.com/IEIT-Yuan/Yuan2.0-M32/blob/main/vllm/README_Yuan_vllm.md).
 
 
 ##  5. Statement of Agreement
