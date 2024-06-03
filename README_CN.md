@@ -148,7 +148,7 @@ docker exec -it your_name bash
 
 **4.4  推理服务**
 
--详细部署方案可以参考[vllm](https://github.com/IEIT-Yuan/Yuan2.0-M32/edit/main/vllm/README_Yuan_vllm.md)
+-详细部署方案可以参考[vllm](https://github.com/IEIT-Yuan/Yuan2.0-M32/blob/main/vllm/README_Yuan_vllm.md)
 
 
 ##  5. Statement of Agreement
