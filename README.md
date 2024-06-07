@@ -107,7 +107,7 @@ We conducted a thorough evaluation of the Yuan2.0-M32 model across a range of be
 | **Yuan2.0-M32**    |        74.4%       |     92.7%      |       72.2%       |      **55.9%**     |       **95.8%**   |
 
 
-\* __*ARC-C*__: AI2 Reasoning Challenge (ARC) benchmark contains more complex parts that need further reasoning.
+\* __*ARC-C*__: Al2 Reasoning Challenge (ARC) benchmark is divided into Easy and Challenge parts, with the later containing more complex parts that needs further reasoning. We test our model on the Challenge parts.
 
 
 
