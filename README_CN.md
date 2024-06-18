@@ -33,7 +33,8 @@
 
 ##  0. Latest News 🎉🎉
 
-* [2024-05-28] 发布源2.0 M32 大模型
+* **[2024-06-18]** 发布 INT4量化版本模型 ([Yuan2.0-M32-HF-INT4](https://github.com/IEIT-Yuan/Yuan2.0-M32/edit/main/README_CN.md#2-model-downloads)) 🎗️🎗️
+* **[2024-05-28]** 发布源2.0 M32大模型
 
 
 
@@ -72,9 +73,9 @@ Fig.1: Yuan 2.0-M32 架构图
 | Yuan2.0-M32-HF |    16K    | HuggingFace    |    [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-hf) \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-hf) \| [百度网盘](https://pan.baidu.com/s/1FrbVKji7IrhpwABYSIsV-A?pwd=q6uh)\| [始智AI](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-M32-hf)
 | Yuan2.0-M32-GGUF |    16K    | GGUF         |    [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-gguf/summary)  \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-gguf) \| [百度网盘](https://pan.baidu.com/s/1BWQaz-jeZ1Fe69CqYtjS9A?pwd=f4qc) \| [始智AI](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-M32-gguf)
 | Yuan2.0-M32-GGUF-INT4 |    16K    | GGUF    |    [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-gguf-int4/summary)  \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-gguf-int4) \| [百度网盘](https://pan.baidu.com/s/1FM8xPpkhOrRcAfe7-zUgWQ?pwd=e6ag) \| [始智AI](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-M32-gguf-int4)
+| Yuan2.0-M32-HF-INT4 |    16K    |  HuggingFace    |    [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-HF-INT4/summary)  \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-hf-int4) \| 百度网盘 \| [始智AI](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-M32-hf-int4/)
 
-
-
+\* __*Yuan2.0-M32-HF-INT4*__：模型推理方法，参考[Yuan2-M32基于AutoGPTQ的量化和推理](https://github.com/IEIT-Yuan/Yuan2.0-M32/blob/main/docs/README_GPTQ_CN.md)。
 
 
 ##  3. Evaluation Results
@@ -127,7 +128,7 @@ Yuan2.0-M32 模型与多个闭源、开源模型相比，均呈现出较好的�
 
 **4.1  环境配置**
 
-我们建议使用yuan2.0-M32的最新docker.
+我们建议使用yuan2.0-M32的最新docker。
 
 我们可以通过下面命令启动容器：
 
@@ -140,15 +141,16 @@ docker exec -it your_name bash
 
 **4.2  数据预处理**
 
-我们提供了数据预处理的脚本，参考[数据预处理说明文档](./docs/data_process.md).
+我们提供了数据预处理的脚本，参考[数据预处理说明文档](./docs/data_process.md)。
 
 **4.3  模型预训练**
 
-我们提供了用于预训练的文档和 [example](./examples)的脚本，具体使用方法可以参考[预训练说明文档](./docs/pretrain.md).
+我们提供了用于预训练的文档和 [example](./examples)的脚本，具体使用方法可以参考[预训练说明文档](./docs/pretrain.md)。
 
 **4.4  推理服务**
 
--详细部署方案可以参考[vllm](https://github.com/IEIT-Yuan/Yuan2.0-M32/blob/main/vllm/README_Yuan_vllm.md)
+- 详细部署方案可以参考 [vllm](https://github.com/IEIT-Yuan/Yuan2.0-M32/blob/main/vllm/README_Yuan_vllm.md)。
+- Yuan2.0-M32-HF-INT4 模型推理方法，参考 [基于AutoGPTQ的量化和推理](https://github.com/IEIT-Yuan/Yuan2.0-M32/blob/main/docs/README_GPTQ_CN.md)。
 
 
 ##  5. Statement of Agreement
