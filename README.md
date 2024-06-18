@@ -39,6 +39,7 @@
 
 ##  0. Latest News 🎉🎉
 
+* **[2024-06-18]** **Yuan2.0-M32-HF-INT4 released** 🎗️🎗️
 * **[2024-05-28]** **Yuan2.0-M32 released**
 
 
@@ -77,9 +78,10 @@ Fig.1: Yuan 2.0-M32 Architecture
 | Yuan2.0-M32-HF |    16K    | HuggingFace    |    [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-hf) \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-hf) \| [Netdisk](https://pan.baidu.com/s/1FrbVKji7IrhpwABYSIsV-A?pwd=q6uh) \| [Wisemodel](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-M32-hf)
 | Yuan2.0-M32-GGUF |    16K    | GGUF         |    [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-gguf/summary)  \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-gguf) \| [Netdisk](https://pan.baidu.com/s/1BWQaz-jeZ1Fe69CqYtjS9A?pwd=f4qc) \| [Wisemodel](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-M32-gguf)
 | Yuan2.0-M32-GGUF-INT4 |    16K    | GGUF    |    [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-gguf-int4/summary)  \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-gguf-int4) \| [Netdisk](https://pan.baidu.com/s/1FM8xPpkhOrRcAfe7-zUgWQ?pwd=e6ag) \| [Wisemodel](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-M32-gguf-int4)
+| Yuan2.0-M32-HF-INT4 |    16K    |  HuggingFace    |    [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-HF-INT4/summary)  \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-hf-int4) \| Netdisk \| [Wisemodel](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-M32-hf-int4/)
 
 
-
+\* __*Yuan2.0-M32-HF-INT4*__: The method of quantization and inference ，refer to the [guide](https://github.com/IEIT-Yuan/Yuan2.0-M32/blob/main/docs/README_GPTQ_EN.md).
 
 
 ##  3. Evaluation
@@ -152,9 +154,8 @@ We've provided several scripts for pretraining in the [`example`](./examples). T
 
 **4.4  Inference Service**
 
-
-
-For a detailed deployment plan, please refer to [vllm](https://github.com/IEIT-Yuan/Yuan2.0-M32/blob/main/vllm/README_Yuan_vllm.md).
+- For a detailed deployment plan, please refer to [vllm](https://github.com/IEIT-Yuan/Yuan2.0-M32/blob/main/vllm/README_Yuan_vllm.md).
+- Inference with Yuan2.0-M32-HF-INT4, please refer to [The Method of Quantization and Inference for Yuan2.0-M32](https://github.com/IEIT-Yuan/Yuan2.0-M32/blob/main/docs/README_GPTQ_EN.md).
 
 
 ##  5. Statement of Agreement
