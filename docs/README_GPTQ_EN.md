@@ -1,7 +1,17 @@
 <h1 align="center">The Method of Quantization and Inference for Yuan2.0-M32</h1>
 
 
+<div align="center">
 
+    
+  <a href="code_license">
+    <img alt="Code License" src="https://img.shields.io/badge/Apache%202.0%20-green?style=flat&label=Code%20License&link=https%3A%2F%2Fgithub.com%2FIEIT-Yuan%2FYuan-2.0-MoE%3Ftab%3DApache-2.0-1-ov-file"/>
+  </a>
+  <a href="model_license">
+    <img alt="Model License" src="https://img.shields.io/badge/Yuan2.0%20License-blue?style=flat&logoColor=blue&label=Model%20License&color=blue&link=https%3A%2F%2Fgithub.com%2FIEIT-Yuan%2FYuan-2.0%2Fblob%2Fmain%2FLICENSE-Yuan" />
+  </a>
+
+</div>
 
 
 
