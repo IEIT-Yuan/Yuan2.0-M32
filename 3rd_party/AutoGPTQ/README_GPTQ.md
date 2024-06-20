@@ -98,7 +98,7 @@ model = AutoGPTQForCausalLM.from_quantized(quantized_model_dir, device="cuda:0",
 python inference.py
 ```
 
-## 推理精度测试
+## 推理精度&性能测试
 > HumanEval测试参数如下：
 > generation_params = {
         "max_new_tokens": 512,
@@ -107,7 +107,7 @@ python inference.py
         "temperature": 1.0,
 }
 
-> BF16 双卡推理，GPTQ-INT4/INT8 单卡推理
+> BF16模型推理使用2张80GB GPU卡，GPTQ-INT4/INT8模型推理用1张80GB GPU卡
 
 > 测试结果：
 
