@@ -1,4 +1,4 @@
-<h1 align="center">Yuan2-M32基于AutoGPTQ的量化和推理</h1>
+![image](https://github.com/IEI-mjx/Yuan2.0-M32/assets/156412728/2a872832-19ea-48bf-9c0f-996fef5d2374)<h1 align="center">Yuan2-M32基于AutoGPTQ的量化和推理</h1>
 
 
 
@@ -109,10 +109,11 @@ python inference.py
 
 > 测试结果：
 
-| Model               | Accuracy Type | Ckpt Size | HumanEval |
-|---------------------|---------------|-----------|-----------|
-| Yuan2-M32-HF        | BF16          | 75GB      | 73.17%    |
-| Yuan2-M32-GPTQ-int8 | INT8          | 40GB      | 72.56%    |
-| Yuan2-M32-GPTQ-int4 | INT4          | 21GB      | 66.46%    |
+| Model               | Accuracy Type |  HumanEval | Inference Speed |  Inference Memory Usage |
+|---------------------|---------------|------------|-----------------|-------------------------|
+| Yuan2-M32-HF        | BF16          |  73.17%    | 13.16 token/s   |76.34 GB                 |
+| Yuan2-M32-GPTQ-int8 | INT8          |  72.56%    |  9.05 token/s   |39.81 GB                 |
+| Yuan2-M32-GPTQ-int4 | INT4          |  66.46%    |  9.24 token/s   |23.27GB                  |
+
 
 
