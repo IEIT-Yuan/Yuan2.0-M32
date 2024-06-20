@@ -16,7 +16,7 @@ cd /mnt
 git clone https://github.com/IEIT-Yuan/Yuan2.0-M32.git
 
 # 进入autogptq项目
-cd  Yuan2.0-M32/3rd_party/autogptq
+cd  Yuan2.0-M32/3rd_party/AutoGPTQ
 
 # 安装autogptq
 pip install auto-gptq --no-build-isolation
@@ -30,7 +30,7 @@ pip install auto-gptq --no-build-isolation
 - 3.按照以下步骤调整量化参数进行量化操作
 ```shell
 # 编辑Yuan2-M32-int4.py
-cd /mnt/beegfs2/Yuan2.0-M32/3rd_party/autogptq
+cd /mnt/beegfs2/Yuan2.0-M32/3rd_party/AutoGPTQ
 vim Yuan2-M32-int4.py
 
 '''
@@ -81,7 +81,7 @@ cd /mnt/beegfs2/Yuan2-M32-HF
 cp special_tokens_map.json tokenizer* /mnt/beegfs2/Yuan2-M32-GPTQ-int4
 
 # 编辑inference.py
-cd /mnt/beegfs2/Yuan2.0-M32/3rd_party/autogptq
+cd /mnt/beegfs2/Yuan2.0-M32/3rd_party/AutoGPTQ
 vim inference.py
 
 '''
@@ -106,6 +106,8 @@ python inference.py
         "top_p": 0,
         "temperature": 1.0,
 }
+
+> BF16 双卡推理，GPTQ-INT4/INT8 单卡推理
 
 > 测试结果：
 
