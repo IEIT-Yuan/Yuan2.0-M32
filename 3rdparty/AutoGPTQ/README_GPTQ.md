@@ -1,4 +1,4 @@
-![image](https://github.com/IEI-mjx/Yuan2.0-M32/assets/156412728/2a872832-19ea-48bf-9c0f-996fef5d2374)<h1 align="center">Yuan2-M32基于AutoGPTQ的量化和推理</h1>
+<h1 align="center">Yuan2-M32基于AutoGPTQ的量化和推理</h1>
 
 
 
