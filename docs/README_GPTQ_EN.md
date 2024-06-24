@@ -37,7 +37,7 @@ cd /mnt
 git clone https://github.com/IEIT-Yuan/Yuan2.0-M32.git
 
 # enter project
-cd  Yuan2.0-M32/autogptq
+cd  Yuan2.0-M32/3rd_party/AutoGPTQ
 
 # install autogptq
 pip install auto-gptq --no-build-isolation
@@ -59,7 +59,7 @@ pip install auto-gptq --no-build-isolation
 
 ```shell
 # edit Yuan2-M32-int4.py
-cd /mnt/beegfs2/Yuan2.0-M32/autogptq
+cd /mnt/beegfs2/Yuan2.0-M32/3rd_party/AutoGPTQ
 vim Yuan2-M32-int4.py
 
 '''
@@ -116,7 +116,7 @@ cd /mnt/beegfs2/Yuan2-M32-HF
 cp special_tokens_map.json tokenizer* /mnt/beegfs2/Yuan2-M32-GPTQ-int4
 
 # edit inference.py
-cd /mnt/beegfs2/Yuan2.0-M32/autogptq
+cd /mnt/beegfs2/Yuan2.0-M32/3rd_party/AutoGPTQ
 vim inference.py
 
 '''
@@ -141,12 +141,15 @@ python inference.py
         "temperature": 1.0,
 }
 
+> Yuan-M32-HF inferenced with 2 80GB GPUs; Yuan2-M32-GPTQ-int4 and Yuan2-M32-GPTQ-int8 inferenced with single 80GB GPU
+
 > Result:
 
-| Model               | Accuracy Type | Ckpt Size | HumanEval |
-|---------------------|---------------|-----------|-----------|
-| Yuan2-M32-HF        | BF16          | 75GB      | 72.56%    |
-| Yuan2-M32-GPTQ-int8 | INT8          | 40GB      | 72.56%    |
-| Yuan2-M32-GPTQ-int4 | INT4          | 21GB      | 66.46%    |
+| Model               | Accuracy Type |  HumanEval | Inference Speed |  Inference Memory Usage |
+|---------------------|---------------|------------|-----------------|-------------------------|
+| Yuan2-M32-HF        | BF16          |  73.17%    | 13.16 token/s   |76.34 GB                 |
+| Yuan2-M32-GPTQ-int8 | INT8          |  72.56%    |  9.05 token/s   |39.81 GB                 |
+| Yuan2-M32-GPTQ-int4 | INT4          |  66.46%    |  9.24 token/s   |23.27GB                  |
+
 
 
