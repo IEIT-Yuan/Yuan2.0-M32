@@ -4,7 +4,7 @@ from collections import deque
 from dataclasses import dataclass, field
 from typing import Deque, Dict, Iterable, List, Optional, Set, Tuple, Union
 
-from vllm.config import CacheConfig, LoRAConfig, SchedulerConfig
+from vllm.config import CacheConfig, LoRAConfig, SchedulerConfig, ModelConfig, ParallelConfig
 from vllm.core.interfaces import AllocStatus, BlockSpaceManager
 from vllm.core.policy import Policy, PolicyFactory
 from vllm.logger import init_logger
@@ -239,12 +239,18 @@ class Scheduler:
 
     def __init__(
         self,
+        model_config: ModelConfig,
+        parallel_config: ParallelConfig,
         scheduler_config: SchedulerConfig,
         cache_config: CacheConfig,
         lora_config: Optional[LoRAConfig],
     ) -> None:
+        self.model_config = model_config
+        self.parallel_config = parallel_config
         self.scheduler_config = scheduler_config
         self.cache_config = cache_config
+
+        self.num_layers = model_config.get_num_layers(parallel_config)
         # Note for LoRA scheduling: the current policy is extremely
         # simple and NOT fair. It can lead to starvation of some
         # LoRAs. This should be improved in the future.
@@ -898,12 +904,19 @@ class Scheduler:
             seq_data: Dict[int, SequenceData] = {}
             # seq_id -> physical block numbers
             block_tables: Dict[int, List[int]] = {}
+            
+            lf1_caches = [[] for _ in range(self.num_layers)]
+            lf2_caches = [[] for _ in range(self.num_layers)]
 
             for seq in seq_group.get_seqs(status=SequenceStatus.RUNNING):
                 seq_id = seq.seq_id
                 seq_data[seq_id] = seq.data
                 block_tables[seq_id] = self.block_manager.get_block_table(seq)
                 self.block_manager.access_all_blocks_in_seq(seq, now)
+                if self.model_config.hf_config.model_type == 'yuan':
+                    for l in range(self.num_layers):
+                        lf1_caches[l].append(seq.lf1_caches[l])
+                        lf2_caches[l].append(seq.lf2_caches[l])
 
             common_computed_block_nums = (
                 self.block_manager.get_common_computed_block_ids(
@@ -928,6 +941,8 @@ class Scheduler:
                 # `multi_modal_data` will be None.
                 multi_modal_data=seq_group.multi_modal_data
                 if scheduler_outputs.num_prefill_groups > 0 else None,
+                lf1_caches=lf1_caches,
+                lf2_caches=lf2_caches,
             )
             seq_group_metadata_list.append(seq_group_metadata)
 

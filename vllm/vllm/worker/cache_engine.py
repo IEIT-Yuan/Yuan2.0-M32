@@ -52,9 +52,6 @@ class CacheEngine:
         # Initialize the cache.
         self.gpu_cache = self._allocate_kv_cache(self.num_gpu_blocks, "cuda")
         self.cpu_cache = self._allocate_kv_cache(self.num_cpu_blocks, "cpu")
-        if self.model_config.hf_config.model_type == 'yuan':
-            self.lf_gpu_cache = self._allocate_lf_cache(self.cache_config.max_num_seqs, "cuda")
-            self.lf_cpu_cache = self._allocate_lf_cache(self.cache_config.max_num_seqs, "cpu")
 
     def _allocate_kv_cache(
         self,

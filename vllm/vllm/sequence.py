@@ -1,12 +1,14 @@
 """Sequence and its related classes."""
 import copy
 import enum
+import torch
 from dataclasses import dataclass
-from typing import TYPE_CHECKING, Dict, List, Optional, Union
+from typing import TYPE_CHECKING, Dict, List, Optional, Union, Tuple
 
 from vllm.block import LogicalTokenBlock
 from vllm.lora.request import LoRARequest
 from vllm.sampling_params import SamplingParams
+from vllm.utils import STR_DTYPE_TO_TORCH_DTYPE, is_pin_memory_available
 
 if TYPE_CHECKING:
     import torch
@@ -221,6 +223,7 @@ class Sequence:
 
         self.logical_token_blocks: List[LogicalTokenBlock] = []
         # Initialize the logical token blocks with the prompt token ids.
+        # zhaoxd 初始化blocks的时候只添加prompt_token_ids
         self._append_tokens_to_blocks(prompt_token_ids)
         self.status = SequenceStatus.WAITING
         self.stop_reason: Union[int, str, None] = None
@@ -230,6 +233,9 @@ class Sequence:
         self.read_offset = 0
         # Input + output tokens
         self.tokens: Optional[List[str]] = None
+
+        self.lf1_caches = []
+        self.lf2_caches = []
 
     @property
     def lora_int_id(self) -> int:
@@ -248,6 +254,7 @@ class Sequence:
         # TODO: The current hashing function is O(L^2). We should optimize
         # this in the future.
         num_tokens = self.num_hashed_tokens_of_block(logical_idx)
+        # zhaoxd 利用输入的token ids和lora int id组成的元组，生成hash值
         return hash(
             (tuple(self.data.get_token_ids()[0:num_tokens]), self.lora_int_id))
 
@@ -281,6 +288,26 @@ class Sequence:
                                                num_empty_slots])
             cursor += num_empty_slots
 
+    def get_lf_cache_shape(self, hidden_size) -> Tuple[int, int, int, int]:
+        return (1, hidden_size, 1, 1)
+
+    def create_lf_caches(
+        self,
+        hidden_size: int,
+        num_layers: int,
+        device: str = 'cuda',
+        dtype: torch.dtype = torch.float32,
+    ) -> None:
+        """Allocates LF cache on the specified device."""
+        lf1_cache_shape = self.get_lf_cache_shape(hidden_size)
+        lf2_cache_shape = self.get_lf_cache_shape(hidden_size // 2)
+        pin_memory = is_pin_memory_available() if device == "cpu" else False
+        for _ in range(num_layers):
+            lf1_cache = torch.zeros(lf1_cache_shape, dtype=dtype, pin_memory=pin_memory, device=device)
+            lf2_cache = torch.zeros(lf2_cache_shape, dtype=dtype, pin_memory=pin_memory, device=device)
+            self.lf1_caches.append(lf1_cache)
+            self.lf2_caches.append(lf2_cache)
+    
     def append_token_id(
         self,
         token_id: int,
@@ -576,6 +603,8 @@ class SequenceGroupMetadata:
         computed_block_nums: Optional[List[int]] = None,
         state: Optional[SequenceGroupState] = None,
         multi_modal_data: Optional[MultiModalData] = None,
+        lf1_caches: List[List[torch.Tensor]] = None,
+        lf2_caches: List[List[torch.Tensor]] = None,
     ) -> None:
         self.request_id = request_id
         self.is_prompt = is_prompt
@@ -587,6 +616,8 @@ class SequenceGroupMetadata:
         self.multi_modal_data = multi_modal_data
         self.state = SequenceGroupState() if state is None else state
         self._token_chunk_size = token_chunk_size
+        self.lf1_caches = lf1_caches
+        self.lf2_caches = lf2_caches
 
         if self._token_chunk_size is None:
             if is_prompt:

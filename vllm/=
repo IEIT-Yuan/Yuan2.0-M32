@@ -1,0 +1,4 @@
+Looking in indexes: https://pypi.org/simple, https://pypi.ngc.nvidia.com
+Requirement already satisfied: prometheus_client in /usr/local/lib/python3.10/dist-packages (0.17.0)
+Collecting to
+  Downloading to-0.3.tar.gz (26 kB)
