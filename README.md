@@ -79,6 +79,7 @@ Fig.1: Yuan 2.0-M32 Architecture
 | Yuan2.0-M32-GGUF |    16K    | GGUF         |    [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-gguf/summary)  \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-gguf) \| [Netdisk](https://pan.baidu.com/s/1BWQaz-jeZ1Fe69CqYtjS9A?pwd=f4qc) \| [Wisemodel](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-M32-gguf)
 | Yuan2.0-M32-GGUF-INT4 |    16K    | GGUF    |    [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-gguf-int4/summary)  \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-gguf-int4) \| [Netdisk](https://pan.baidu.com/s/1FM8xPpkhOrRcAfe7-zUgWQ?pwd=e6ag) \| [Wisemodel](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-M32-gguf-int4)
 | Yuan2.0-M32-HF-INT4 |    16K    |  HuggingFace    |    [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-HF-INT4/summary)  \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-hf-int4) \| Netdisk \| [Wisemodel](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-M32-hf-int4/)
+| Yuan2.0-M32-HF-INT8 |    16K    |  HuggingFace    |    [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-hf-int8/)  \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-hf-int8/) \| Netdisk \| [Wisemodel](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-M32-hf-int8/)
 
 
 \* __*Yuan2.0-M32-HF-INT4*__: The method of quantization and inference ，refer to the [guide](https://github.com/IEIT-Yuan/Yuan2.0-M32/blob/main/docs/README_GPTQ_EN.md).
