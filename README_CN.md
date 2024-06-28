@@ -73,7 +73,11 @@ Fig.1: Yuan 2.0-M32 架构图
 | Yuan2.0-M32-HF |    16K    | HuggingFace    |    [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-hf) \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-hf) \| [百度网盘](https://pan.baidu.com/s/1FrbVKji7IrhpwABYSIsV-A?pwd=q6uh)\| [始智AI](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-M32-hf)
 | Yuan2.0-M32-GGUF |    16K    | GGUF         |    [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-gguf/summary)  \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-gguf) \| [百度网盘](https://pan.baidu.com/s/1BWQaz-jeZ1Fe69CqYtjS9A?pwd=f4qc) \| [始智AI](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-M32-gguf)
 | Yuan2.0-M32-GGUF-INT4 |    16K    | GGUF    |    [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-gguf-int4/summary)  \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-gguf-int4) \| [百度网盘](https://pan.baidu.com/s/1FM8xPpkhOrRcAfe7-zUgWQ?pwd=e6ag) \| [始智AI](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-M32-gguf-int4)
-| Yuan2.0-M32-HF-INT4 |    16K    |  HuggingFace    |    [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-HF-INT4/summary)  \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-hf-int4) \| 百度网盘 \| [始智AI](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-M32-hf-int4/)
+| Yuan2.0-M32-HF-INT4 |    16K    |  HuggingFace    |    [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-HF-INT4/summary)  \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-hf-int4) \| [百度网盘](https://pan.baidu.com/s/1zacOAxCne9U99LdgMbjfFQ?pwd=kkww )  \| [始智AI](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-M32-hf-int4/)
+| Yuan2.0-M32-HF-INT8 |    16K    |  HuggingFace    |    [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-hf-int8/)  \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-hf-int8/) \| [百度网盘](https://pan.baidu.com/s/1hq9l6eYY_cRuBlQMRV6Lcg?pwd=b56k) \| [始智AI](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-M32-hf-int8/)
+
+
+
 
 \* __*Yuan2.0-M32-HF-INT4*__：模型推理方法，参考[Yuan2-M32基于AutoGPTQ的量化和推理](https://github.com/IEIT-Yuan/Yuan2.0-M32/blob/main/docs/README_GPTQ_CN.md)。
 
