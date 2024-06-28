@@ -20,7 +20,11 @@
 
 |    Model     | Sequence Length  |   Type   |         Download         |
 | :----------: | :------: | :-------: |:---------------------------: |
-| Yuan2.0-M32-HF-INT4 |    16K    | HuggingFace    | [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-HF-INT4/summary) \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-hf-int4) \| [WiseModel](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-M32-hf-int4/) 
+| Yuan2.0-M32-HF-INT4 |    16K    |  HuggingFace    |    [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-HF-INT4/summary)  \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-hf-int4) \| [Netdisk](https://pan.baidu.com/s/1zacOAxCne9U99LdgMbjfFQ?pwd=kkww )  \| [Wisemodel](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-M32-hf-int4/)
+| Yuan2.0-M32-HF-INT8 |    16K    |  HuggingFace    |    [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-hf-int8/)  \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-hf-int8/) \| [Netdisk](https://pan.baidu.com/s/1hq9l6eYY_cRuBlQMRV6Lcg?pwd=b56k) \| [Wisemodel](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-M32-hf-int8/)
+
+
+
 
 
 ## 1. Environment of AutoGPTQ 
