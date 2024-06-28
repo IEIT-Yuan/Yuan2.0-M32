@@ -21,8 +21,8 @@
 
 |    模型     | 序列长度  |   模型格式   |         下载链接         |
 | :----------: | :------: | :-------: |:---------------------------: |
-| Yuan2.0-M32-HF-INT4 |    16K    | HuggingFace    | [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-HF-INT4/summary) \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-hf-int4) \| [始智AI](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-M32-hf-int4/) 
-
+| Yuan2.0-M32-HF-INT4 |    16K    |  HuggingFace    |    [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-HF-INT4/summary)  \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-hf-int4) \| [百度网盘](https://pan.baidu.com/s/1zacOAxCne9U99LdgMbjfFQ?pwd=kkww )  \| [始智AI](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-M32-hf-int4/)
+| Yuan2.0-M32-HF-INT8 |    16K    |  HuggingFace    |    [ModelScope](https://modelscope.cn/models/YuanLLM/Yuan2-M32-hf-int8/)  \| [HuggingFace](https://huggingface.co/IEITYuan/Yuan2-M32-hf-int8/) \| [百度网盘](https://pan.baidu.com/s/1hq9l6eYY_cRuBlQMRV6Lcg?pwd=b56k) \| [始智AI](https://www.wisemodel.cn/models/IEIT-Yuan/Yuan2-M32-hf-int8/)
 
 
 ## 1. 配置AutoGPTQ环境
