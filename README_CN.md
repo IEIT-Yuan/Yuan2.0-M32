@@ -25,6 +25,12 @@
 </div>
 
 
+<h4 align="center">
+    <p>
+        <b>简体中文</b> |
+        <a href="./README.md">English</a>
+    <p>
+</h4>
 
 
 -----
