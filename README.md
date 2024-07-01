@@ -39,6 +39,7 @@
 
 ##  0. Latest News 🎉🎉
 
+* **[2024-06-28]** **Yuan2.0-M32-HF-INT8 released, high performance, lossless generation accuracy** 🎗️🎗️🎗️
 * **[2024-06-18]** **Yuan2.0-M32-HF-INT4 released** 🎗️🎗️
 * **[2024-05-28]** **Yuan2.0-M32 released**
 
