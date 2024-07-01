@@ -33,6 +33,7 @@
 
 ##  0. Latest News 🎉🎉
 
+* **[2024-06-18]** 发布 INT8量化版本模型 ([Yuan2.0-M32-HF-INT8](https://github.com/IEIT-Yuan/Yuan2.0-M32/blob/main/README_CN.md#2-model-downloads))，高性能推理、精度无损 🎗️🎗️🎗️
 * **[2024-06-18]** 发布 INT4量化版本模型 ([Yuan2.0-M32-HF-INT4](https://github.com/IEIT-Yuan/Yuan2.0-M32/edit/main/README_CN.md#2-model-downloads)) 🎗️🎗️
 * **[2024-05-28]** 发布源2.0 M32大模型
 
