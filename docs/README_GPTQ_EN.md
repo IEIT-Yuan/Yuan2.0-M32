@@ -41,10 +41,10 @@ cd /mnt
 git clone https://github.com/IEIT-Yuan/Yuan2.0-M32.git
 
 # enter project
-cd  Yuan2.0-M32/3rd_party/AutoGPTQ
+cd Yuan2.0-M32/3rd_party/AutoGPTQ
 
 # install autogptq
-pip install auto-gptq --no-build-isolation
+pip install --no-build-isolation -e .
 ```
 
 ## 2. Quantize Yuan2.0-M32-HF model

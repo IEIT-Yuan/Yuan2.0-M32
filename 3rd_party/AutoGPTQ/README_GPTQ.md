@@ -16,10 +16,10 @@ cd /mnt
 git clone https://github.com/IEIT-Yuan/Yuan2.0-M32.git
 
 # 进入autogptq项目
-cd  Yuan2.0-M32/3rd_party/AutoGPTQ
+cd Yuan2.0-M32/3rd_party/AutoGPTQ
 
 # 安装autogptq
-pip install auto-gptq --no-build-isolation
+pip install --no-build-isolation -e .
 ```
 
 ## 量化Yuan2-M32-HF模型
