@@ -38,5 +38,5 @@ John买了3件衬衫，每件售价为20美元。此外，他还需要支付所�
 python ./tools/preprocess_data_yuan.py --input '<Specify path>' --data-idx '0-42' --tokenizer_path './tokenizer' --output_path '<Specify path>'
 ```
 
-如果数据集已被处理，即其 .idx 文件和 .bin 文件已存在于"-output\_path"（输出路径）中，程序将跳过该数据集。
+如果数据集已被处理，即其 .idx 文件和 .bin 文件已存在于"--output\_path"（输出路径）中，程序将跳过该数据集。
 
