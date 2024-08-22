@@ -137,7 +137,7 @@ We conducted a thorough evaluation of the Yuan2.0-M32 model across a range of be
 
 **4.1  Environment Config**
 
-We strongly recommend using the latest release of docker images of Yuan2.0-M32.You can launch an instance of the Yuan 2.0 container with the following Docker commands:
+We strongly recommend using the latest release of docker images of Yuan2.0-M32. You can launch an instance of the Yuan 2.0 container with the following Docker commands:
 
 ```bash
 docker pull yuanmodel/yuan2.0:m32
