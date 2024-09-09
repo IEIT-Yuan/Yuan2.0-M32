@@ -18,7 +18,7 @@ The  scripts describe three models in Yuan2.0:
 
 ### Example
 
-An example script to run Yuan-2.1B-M32 pretraining is:
+An example script to run Yuan2.0-M32 pretraining is:
 
 ```shell
 bash examples/pretrain_yuan2.0_moe_2x32B.sh
